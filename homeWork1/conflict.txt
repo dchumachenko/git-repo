@@ -1,2 +1,2 @@
-print('Privet Vasya')
-print('PokaVasya')
+print('Privet Vasya';)
+print('PokaVasya';)
