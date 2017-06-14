@@ -3,4 +3,5 @@ print('PokaVasya';)
 print('Suka ti Vasya';)
 console.log('zelezniy kaputt')
 
-console.log('zelezniy kap')
+print('Suka ti Vasya';)
+console.log('zelezniy kaputt')
