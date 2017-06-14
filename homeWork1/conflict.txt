@@ -1,2 +1,3 @@
 print('Privet Vasya';)
 print('PokaVasya';)
+print('Suka ti Vasya';)
