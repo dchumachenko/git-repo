@@ -9,7 +9,7 @@ body {
 } 
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     position: relative;
 }
@@ -247,6 +247,7 @@ h4 {
 
 figure {
     margin: 0 0 39px 0;
+    position: relative;    
 }
 .content-name {
     font-family: 'Lato', sans-serif;
@@ -263,6 +264,23 @@ figure {
     margin: 17px 0 0 14px;
 }
 
+.hover {
+    position: absolute;
+    top: 0;
+    height: 382px;
+    opacity: 0;
+}
+
+.hover a {
+    position: absolute;
+    top: 98px;
+    left: 70px;
+}
+
+.hover:hover {
+   opacity: 1;
+}
+
 .browse_all {
     margin: 40px auto 97px;
     background-color: #f16d7f;
@@ -276,6 +294,9 @@ figure {
     line-height: 54px;
 }
 
+.browse_all:hover {
+    cursor: pointer;
+}
 /*Блок скидки/доставка*/
 
 .discount {
@@ -332,6 +353,13 @@ figure {
     line-height: 24px;
 }
 
+.delivery a {
+    text-decoration: none;
+    color: inherit;
+}
+.delivery a:hover {
+    text-decoration: underline;
+}
 /*Отзывы клиентов*/
 
 .letter {
@@ -455,7 +483,7 @@ figure {
     border-bottom-right-radius: 20px;
 }
 
-form {
+.letter_create form {
    box-sizing: border-box;
     margin-top: 35px;
     font-size: 0;
@@ -512,6 +540,10 @@ form {
     padding-left: 0;
 }
 
+.list li:hover {
+    text-decoration: underline;
+}
+
 /*FOOTER*/
 
 footer {
@@ -528,6 +560,13 @@ footer span {
     float: right;
     color: white;
 }
+
+footer a {
+    color: inherit;
+}
 footer span i:hover {
     color: #f16d7f;
 }
+
+
+
