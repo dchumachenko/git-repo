@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>shop</title>
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="modules/css/font-awesome.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/singlePage.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="img/logo.svg" alt="logotype">
+            <div class="shop__name">BRAN<span class="shop__name-letter">D</span></div>
+            <button class="header-browse">Browse <i class="fa fa-caret-down fa-lg"></i></button>
+            <input class="header__search" type="text" placeholder="Search for Item...">
+            <button class="header__search-button"><i class="fa fa-search fa-lg"></i></button>
+            <img class="basket" src="img/basket.png" alt="basket">
+            <div class="header-account">My Account <i class="fa fa-caret-down fa-lg"></i></div>
+        </div>
+    </header>
+    <div class="top__menu">
+        <ul>
+            <li class="top__menu-item"><a href="#">Home</a></li>
+            <li class="top__menu-item"><a href="#">Man</a></li>
+            <li class="top__menu-item"><a href="#">Women</a></li>
+            <li class="top__menu-item"><a href="#">Kids</a></li>
+            <li class="top__menu-item"><a href="#">Accoseriese</a></li>
+            <li class="top__menu-item"><a href="#">Featured</a></li>
+            <li class="top__menu-item"><a href="#">Hot Deals</a></li>
+        </ul>
+    </div>
+
+
+
+    <div class="new_arrivals">
+        <div class="container">
+            <h1 class="new_arrivals-header">New Arrivals</h1>
+            <span class="new_arrivals-category"><a href="#">Home</a> / <a href="#">Men</a> / <a href="#">New Arrivals</a></span>
+        </div>
+    </div>
+
+    <!--    Контент Product page-->
+
+    <!--    Aside - left-->
+    <div class="container pg__aside">
+        <aside>
+            <div class="dropdown">
+                <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-button">Category
+                <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                    <li><a href="#">Jackets & Coats</a></li>
+                    <li><a href="#">Pants</a></li>
+                    <li><a href="#">Polos</a></li>
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Sweaters & Knits</a></li>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Tanks</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-button dropdown-button-2">BRAND
+                <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li><a href="#">Brand-1</a></li>
+                    <li><a href="#">Brand-2</a></li>
+                    <li><a href="#">Brand-3</a></li>
+                    <li><a href="#">Brand-4</a></li>
+                    <li><a href="#">Brand-5</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-button dropdown-button-3">DESIGNER
+                <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li><a href="#">Designer-1</a></li>
+                    <li><a href="#">Designer-2</a></li>
+                    <li><a href="#">Designer-3</a></li>
+                    <li><a href="#">Designer-4</a></li>
+                    <li><a href="#">Designer-5</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!--   Product page mincontent-->
+
+        <div class="product_content">
+            <div class="product_content__parameters">
+                <div class="product_content__trending">
+                    <h3>Trending now</h3>
+                    <p><a href="#">Bohemian</a> <span>|</span> <a href="#">Floral</a> <span>|</span> <a href="#">Lace Floral</a> <span>|</span> <a href="#">Lace</a> <span>|</span> <a href="#">Bohemian</a></p>
+                </div>
+                <div class="product_content__size">
+                    <h3>Size</h3>
+                    <form action="">
+                        <input type="checkbox" name="size" id="xxs">
+                        <label for="xxs">XXS</label>
+                        <input type="checkbox" name="size" id="xs">
+                        <label for="xs">XS</label>
+                        <input type="checkbox" name="size" id="s">
+                        <label for="">S</label>
+                        <input type="checkbox" name="size" id="m">
+                        <label for="">M</label>
+                        <input type="checkbox" name="size" id="l">
+                        <label for="">L</label>
+                        <input type="checkbox" name="size" id="xl" class="xl">
+                        <label for="">XL</label>
+                        <input type="checkbox" name="size" id="xxl">
+                        <label for="xxl">XXL</label>
+                    </form>
+                </div>
+                <div class="product_content__price">
+                    <h3>Price</h3>
+                    <input type="range" min="0" max="400" value="52">
+                    <p>$52<span class="product_content__price-maxprice">$400</span></p>
+                </div>
+            </div>
+            <div class="product_content__sort">
+                <p>Sort By</p>
+                <select name="sort-bytype" id="product_content__sort-bytype">
+                    <option value="name" checked>Name</option>
+                    <option value="price">Price</option></select>
+                <p>Show</p>
+                <select name="sort-byquantity" id="product_content__sort-byquantity">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option></select>
+            </div>
+            <div class="product_content__item">
+                <figure>
+                    <div class="like_also__background"><img src="img/foto%209.png" alt="picture" class="content-picture"></div>
+                    <figcaption class="content-name">BLAZE LEGGINGS</figcaption>
+                    <figcaption class="content-preis">$52.00</figcaption>
+                    <div class="hover">
+                        <img src="img/Background_hover.png" alt="hover">
+                        <a href="#" class="addtocart"><img src="img/Add%20to%20cart.png" alt="addToCart"></a>
+                        <a href="#" class="retweet"><i  class="fa fa-retweet fa-3x"></i></a>
+                        <a href="#" class="like"><i class="fa fa-heart-o fa-3x"></i></a>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="like_also__background"><img src="img/foto%2010.png" alt="picture" class="content-picture"></div>
+                    <figcaption class="content-name">BLAZE LEGGINGS</figcaption>
+                    <figcaption class="content-preis">$52.00</figcaption>
+                    <div class="hover">
+                        <img src="img/Background_hover.png" alt="hover">
+                        <a href="#" class="addtocart"><img src="img/Add%20to%20cart.png" alt="addToCart"></a>
+                        <a href="#" class="retweet"><i  class="fa fa-retweet fa-3x"></i></a>
+                        <a href="#" class="like"><i class="fa fa-heart-o fa-3x"></i></a>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="like_also__background"><img src="img/foto3.png" alt="picture" class="content-picture"></div>
+                    <figcaption class="content-name">BLAZE LEGGINGS</figcaption>
+                    <figcaption class="content-preis">$52.00</figcaption>
+                    <div class="hover">
+                        <img src="img/Background_hover.png" alt="hover">
+                        <a href="#" class="addtocart"><img src="img/Add%20to%20cart.png" alt="addToCart"></a>
+                        <a href="#" class="retweet"><i  class="fa fa-retweet fa-3x"></i></a>
+                        <a href="#" class="like"><i class="fa fa-heart-o fa-3x"></i></a>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="like_also__background"><img src="img/foto%2011.png" alt="picture" class="content-picture"></div>
+                    <figcaption class="content-name">BLAZE LEGGINGS</figcaption>
+                    <figcaption class="content-preis">$52.00</figcaption>
+                    <div class="hover">
+                        <img src="img/Background_hover.png" alt="hover">
+                        <a href="#" class="addtocart"><img src="img/Add%20to%20cart.png" alt="addToCart"></a>
+                        <a href="#" class="retweet"><i  class="fa fa-retweet fa-3x"></i></a>
+                        <a href="#" class="like"><i class="fa fa-heart-o fa-3x"></i></a>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="like_also__background"><img src="img/foto8.png" alt="picture" class="content-picture"></div>
+                    <figcaption class="content-name">BLAZE LEGGINGS</figcaption>
+                    <figcaption class="content-preis">$52.00</figcaption>
+                    <div class="hover">
+                        <img src="img/Background_hover.png" alt="hover">
+                        <a href="#" class="addtocart"><img src="img/Add%20to%20cart.png" alt="addToCart"></a>
+                        <a href="#" class="retweet"><i  class="fa fa-retweet fa-3x"></i></a>
+                        <a href="#" class="like"><i class="fa fa-heart-o fa-3x"></i></a>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="like_also__background"><img src="img/foto%2012.png" alt="picture" class="content-picture"></div>
+                    <figcaption class="content-name">BLAZE LEGGINGS</figcaption>
+                    <figcaption class="content-preis">$52.00</figcaption>
+                    <div class="hover">
+                        <img src="img/Background_hover.png" alt="hover">
+                        <a href="#" class="addtocart"><img src="img/Add%20to%20cart.png" alt="addToCart"></a>
+                        <a href="#" class="retweet"><i  class="fa fa-retweet fa-3x"></i></a>
+                        <a href="#" class="like"><i class="fa fa-heart-o fa-3x"></i></a>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="like_also__background"><img src="img/foto6.png" alt="picture" class="content-picture"></div>
+                    <figcaption class="content-name">BLAZE LEGGINGS</figcaption>
+                    <figcaption class="content-preis">$52.00</figcaption>
+                    <div class="hover">
+                        <img src="img/Background_hover.png" alt="hover">
+                        <a href="#" class="addtocart"><img src="img/Add%20to%20cart.png" alt="addToCart"></a>
+                        <a href="#" class="retweet"><i  class="fa fa-retweet fa-3x"></i></a>
+                        <a href="#" class="like"><i class="fa fa-heart-o fa-3x"></i></a>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="like_also__background"><img src="img/foto%2013.png" alt="picture" class="content-picture"></div>
+                    <figcaption class="content-name">BLAZE LEGGINGS</figcaption>
+                    <figcaption class="content-preis">$52.00</figcaption>
+                    <div class="hover">
+                        <img src="img/Background_hover.png" alt="hover">
+                        <a href="#" class="addtocart"><img src="img/Add%20to%20cart.png" alt="addToCart"></a>
+                        <a href="#" class="retweet"><i  class="fa fa-retweet fa-3x"></i></a>
+                        <a href="#" class="like"><i class="fa fa-heart-o fa-3x"></i></a>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="like_also__background"><img src="img/foto%2014.png" alt="picture" class="content-picture"></div>
+                    <figcaption class="content-name">BLAZE LEGGINGS</figcaption>
+                    <figcaption class="content-preis">$52.00</figcaption>
+                    <div class="hover">
+                        <img src="img/Background_hover.png" alt="hover">
+                        <a href="#" class="addtocart"><img src="img/Add%20to%20cart.png" alt="addToCart"></a>
+                        <a href="#" class="retweet"><i  class="fa fa-retweet fa-3x"></i></a>
+                        <a href="#" class="like"><i class="fa fa-heart-o fa-3x"></i></a>
+                    </div>
+                </figure>
+            </div>
+            <div class="product_content__nav">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&lt;</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">&hellip;</a></li>
+                        <li><a href="#">20</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&gt;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="product_content__nav-viewall">View All</button>
+            </div>
+        </div>
+    </div>
+
+    <!--    Delivery / Discounts / Quality-->
+
+    <div class="ddq">
+        <div class="container ddq__container">
+            <div class="ddq__container__delivery">
+                <img src="img/Forma%201.png" alt="picture" class="ddq__container-picture">
+                <p class="ddq__container-name">Free Delivery</p>
+                <p class="ddq__container-description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div class="ddq__container__discounts">
+                <img src="img/Forma%202.png" alt="picture" class="ddq__container-picture">
+                <p class="ddq__container-name">Sales & discounts</p>
+                <p class="ddq__container-description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div class="ddq__container__quality">
+                <img src="img/Forma%203.png" alt="picture" class="ddq__container-picture">
+                <p class="ddq__container-name">Quality assurance</p>
+                <p class="ddq__container-description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--    Отзывы клиентов-->
+
+    <div class="letter">
+        <div class="container">
+            <div class="letter-comment">
+                <img src="img/clientFoto.png" alt="foto" class="letter__comment-foto">
+                <p class="letter__comment-item">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                <p class="letter__comment-name">Bin Burhan</p>
+                <p class="letter__comment-adress">Dhaka, Bd</p>
+                <div class="letter-comment-slider slider1"></div>
+                <div class="letter-comment-slider"></div>
+                <div class="letter-comment-slider"></div>
+            </div>
+            <div class="letter__create">
+                <p class="letter__create-header">Subscribe</p>
+                <p class="letter__create-smalltext">FOR OUR NEWLETTER AND PROMOTION</p>
+                <form>
+                    <input type="email" name="email" class="letter__create-email" placeholder="Enter Your Email">
+                    <input type="submit" class="letter__create-subscribe" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--    Cписок у футера-->
+
+    <div class="container list">
+        <div class="list__brand">
+            <img class="logo list__brand-logo" src="img/logo.svg" alt="logotype">
+            <div class="shop__name list__brand-name">BRAN<span class="shop__name-letter">D</span></div>
+            <p class="list_brand-text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
+            <p class="list_brand-text brand-text2">Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+        </div>
+        <div class="list__company">
+            <h4 class="list__information-caption">COMPANY</h4>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">How it Works</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="list__information">
+            <h4 class="list__information-caption">INFORMATION</h4>
+            <ul>
+                <li>
+                    <a href="#">Tearms & Condition</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">How to Buy</a>
+                </li>
+                <li>
+                    <a href="#">How to Sell</a>
+                </li>
+                <li>
+                    <a href="#">Promotion</a>
+                </li>
+            </ul>
+        </div>
+        <div class="list__category">
+            <h4 class="list__information-caption">SHOP CATEGORY</h4>
+            <ul>
+                <li>
+                    <a href="#">Men</a>
+                </li>
+                <li>
+                    <a href="#">Women</a>
+                </li>
+                <li>
+                    <a href="#">Child</a>
+                </li>
+                <li>
+                    <a href="#">Apparel</a>
+                </li>
+                <li>
+                    <a href="#">Brows All</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="container">&copy; 2017 Brand All Rights Reserved.
+            <span>
+            <a href="#"><i class="fa fa-facebook-square fa-lg"></i></a>   
+            <a href="#"><i class="fa fa-twitter-square fa-lg"></i></a>
+            <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fa fa-pinterest-square fa-lg"></i></a>
+            <a href="#"><i class="fa fa-google-plus-square fa-lg"></i></a>
+        </span>
+        </div>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

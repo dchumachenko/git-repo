@@ -79,6 +79,7 @@ header {
     line-height: 32px;
     border: 1px solid #e6e6e6;
     box-sizing: border-box;
+    outline: none;
 }
 
 .header-browse {
@@ -146,7 +147,7 @@ background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
     top: 224px;
 }
 
-h1 {
+.caption__box h1 {
     font-family: 'Lato', sans-serif;
     color:  #222222;
     font-size: 59.95px;
@@ -271,7 +272,7 @@ figure {
     opacity: 0;
 }
 
-.hover a {
+.hover .addtocart {
     position: absolute;
     top: 98px;
     left: 70px;
