@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>shop</title>
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="modules/css/font-awesome.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/singlePage.css">
+    <link rel="stylesheet" href="css/shopping-cart.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="img/logo.svg" alt="logotype">
+            <div class="shop__name">BRAN<span class="shop__name-letter">D</span></div>
+            <button class="header-browse">Browse <i class="fa fa-caret-down fa-lg"></i></button>
+            <input class="header__search" type="text" placeholder="Search for Item...">
+            <button class="header__search-button"><i class="fa fa-search fa-lg"></i></button>
+            <img class="basket" src="img/basket.png" alt="basket">
+            <div class="header-account">My Account <i class="fa fa-caret-down fa-lg"></i></div>
+        </div>
+    </header>
+    <div class="top__menu">
+        <ul>
+            <li class="top__menu-item"><a href="#">Home</a></li>
+            <li class="top__menu-item"><a href="#">Man</a></li>
+            <li class="top__menu-item"><a href="#">Women</a></li>
+            <li class="top__menu-item"><a href="#">Kids</a></li>
+            <li class="top__menu-item"><a href="#">Accoseriese</a></li>
+            <li class="top__menu-item"><a href="#">Featured</a></li>
+            <li class="top__menu-item"><a href="#">Hot Deals</a></li>
+        </ul>
+    </div>
+
+    <div class="new_arrivals">
+        <div class="container">
+            <h1 class="new_arrivals-header">New Arrivals</h1>
+            <span class="new_arrivals-category"><a href="#">Home</a> / <a href="#">Men</a> / <a href="#">New Arrivals</a></span>
+        </div>
+    </div>
+
+    <!--    Контент shopping-cart-->
+    <div class="container">
+        <table>
+            <tr>
+                <td class="td1 td_capture">Product Details</td>
+                <td class="td2 td_capture"></td>
+                <td class="td3 td_capture">unite Price</td>
+                <td class="td4 td_capture">Quantity</td>
+                <td class="td5 td_capture">shipping</td>
+                <td class="td6 td_capture">Subtotal</td>
+                <td class="td7 td_capture">ACTION</td>
+            </tr>
+            <tr>
+                <td class="td1">
+                    <img src="img/foto%209.png" alt="foto" width="100px"></td>
+                <td class="td2">
+                    <p class="td__product_name">Mango People T-shirt</p>
+                    <p class="td__product_consist">Color: <span>Red</span> <br>Size: <span>Xll</span></p>
+                </td>
+                <td class="td3">$150</td>
+                <td class="td4">
+                    <input type="number" min="1" value="2">
+                </td>
+                <td class="td5">FREE</td>
+                <td class="td6">$300</td>
+                <td class="td7"><i class="fa fa-times-circle fa-lg"></i></td>
+            </tr>
+            <tr>
+                <td class="td1"><img src="img/foto%2010.png" alt="foto" width="100px"></td>
+                <td class="td2">
+                    <p class="td__product_name">Mango People T-shirt</p>
+                    <p class="td__product_consist">Color: <span>Red</span> <br>Size: <span>Xll</span></p>
+                </td>
+                <td class="td3">$150</td>
+                <td class="td4">
+                    <input type="number" min="1" value="2">
+                </td>
+                <td class="td5">FREE</td>
+                <td class="td6">$300</td>
+                <td class="td7"><i class="fa fa-times-circle fa-lg"></i></td>
+            </tr>
+            <tr>
+                <td class="td1"><img src="img/foto%2013.png" alt="foto" width="100px"></td>
+                <td class="td2">
+                    <p class="td__product_name">Mango People T-shirt</p>
+                    <p class="td__product_consist">Color: <span>Red</span> <br>Size: <span>Xll</span></p>
+                </td>
+                <td class="td3">$150</td>
+                <td class="td4">
+                    <input type="number" min="1" value="2">
+                </td>
+                <td class="td5">FREE</td>
+                <td class="td6">$300</td>
+                <td class="td7"><i class="fa fa-times-circle fa-lg"></i></td>
+            </tr>
+        </table>
+        <button class="shopcart_button">CLEAR SHOPPING CART</button>
+        <button class="shopcart_button shopcart_button-continue">CONTINUE SHOPPING</button>
+    </div>
+    
+<!--    Shopping cart FORM-->
+    
+    <div class="container shopcart__form">
+        <fieldset>
+            <h3>Shipping Adress</h3>
+            <select name="country" id="country">
+                <option value="country" checked>Bangladesh</option>
+                <option value="country">Russia</option>
+                <option value="country">Belarus</option>
+                <option value="country">Kazahstan</option>
+            </select>
+            <input type="text" name="state" placeholder="State">
+            <input type="text" name="postcode" placeholder="Postcode / Zip">
+            <button name="get_quote">GET A QUOTE</button>
+        </fieldset>
+        <fieldset>
+            <h3>coupon  discount</h3>
+            <p class="shopcart__form__entercoupon">Enter your coupon code if you have one</p>
+            <input type="text" name="coupon" placeholder="State">
+            <button name="coupon">APPLY COUPON</button>
+        </fieldset>
+        <div class="shopcart__form__total">
+            <p class="shopcart__form__total-subtotal">Sub total &emsp;&emsp;<b>$900</b></p>
+            <p class="shopcart__form__total-grandtotal">GRAND TOTAL&emsp;&emsp; <span>$900</span></p>
+            <hr>
+            <button name="proceed_to_checkout" class="">proceed to checkout</button>
+        </div>
+    </div>
+    
+    <!--    Отзывы клиентов-->
+
+    <div class="letter">
+        <div class="container">
+            <div class="letter-comment">
+                <img src="img/clientFoto.png" alt="foto" class="letter__comment-foto">
+                <p class="letter__comment-item">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                <p class="letter__comment-name">Bin Burhan</p>
+                <p class="letter__comment-adress">Dhaka, Bd</p>
+                <div class="letter-comment-slider slider1"></div>
+                <div class="letter-comment-slider"></div>
+                <div class="letter-comment-slider"></div>
+            </div>
+            <div class="letter__create">
+                <p class="letter__create-header">Subscribe</p>
+                <p class="letter__create-smalltext">FOR OUR NEWLETTER AND PROMOTION</p>
+                <form>
+                    <input type="email" name="email" class="letter__create-email" placeholder="Enter Your Email">
+                    <input type="submit" class="letter__create-subscribe" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--    Cписок у футера-->
+
+    <div class="container list">
+        <div class="list__brand">
+            <img class="logo list__brand-logo" src="img/logo.svg" alt="logotype">
+            <div class="shop__name list__brand-name">BRAN<span class="shop__name-letter">D</span></div>
+            <p class="list_brand-text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
+            <p class="list_brand-text brand-text2">Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+        </div>
+        <div class="list__company">
+            <h4 class="list__information-caption">COMPANY</h4>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">How it Works</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="list__information">
+            <h4 class="list__information-caption">INFORMATION</h4>
+            <ul>
+                <li>
+                    <a href="#">Tearms & Condition</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">How to Buy</a>
+                </li>
+                <li>
+                    <a href="#">How to Sell</a>
+                </li>
+                <li>
+                    <a href="#">Promotion</a>
+                </li>
+            </ul>
+        </div>
+        <div class="list__category">
+            <h4 class="list__information-caption">SHOP CATEGORY</h4>
+            <ul>
+                <li>
+                    <a href="#">Men</a>
+                </li>
+                <li>
+                    <a href="#">Women</a>
+                </li>
+                <li>
+                    <a href="#">Child</a>
+                </li>
+                <li>
+                    <a href="#">Apparel</a>
+                </li>
+                <li>
+                    <a href="#">Brows All</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2017 Brand All Rights Reserved.
+                <span>
+            <a href="#"><i class="fa fa-facebook-square fa-lg"></i></a>   
+            <a href="#"><i class="fa fa-twitter-square fa-lg"></i></a>
+            <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fa fa-pinterest-square fa-lg"></i></a>
+            <a href="#"><i class="fa fa-google-plus-square fa-lg"></i></a>
+        </span></p>
+        </div>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
