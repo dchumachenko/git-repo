@@ -24,10 +24,13 @@ $fontFamily: 'Lato', sans-serif
     -ms-box-shadow: none
     li
         padding-left: 35px
+        transition: 2s
     forma
         width: 240px
+        float: left
     label
         font-size: 12px
+        cursor: pointer
     input[type="button"]
         background-color: #fff
         border: 1px solid #eaeaea
@@ -38,6 +41,10 @@ $fontFamily: 'Lato', sans-serif
         font-size: 14px
         font-weight: 700
         margin-top: 38px
+        &:hover
+            transition-duration: 2s
+            background-color: #ef5b70 
+            color: white
 .caret
     display: none
 .dropdown-menu__bigletter
@@ -60,4 +67,27 @@ $fontFamily: 'Lato', sans-serif
 .smletter-last_p
     margin-top: 33px
     
+fieldset
+    width: 390px
+    margin-left: 584px
+label span
+    color: #ff0d0d
+.dropdown-menu__smletter-red
+    margin-top: 15px
+    font-family: $fontFamily
+    color:  #ff0d0d
+    font-size: 13px
+    font-weight: 400
+    line-height: 20px
+.dropdown-menu__smletter-black
+    color: #222222
+    font-size: 14px
+#email, #password
+    margin-top: 16px
+    margin-bottom: 23px
+    padding-left: 5px
+    border: 1px solid #eaeaea
+    box-sizing: border-box
+    width: 100%
+    height: 45px
     

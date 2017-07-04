@@ -55,7 +55,10 @@ header {
     top: 29px;
     right: 157px;
 }
-
+.basket:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
 .header-account {
     margin-top: 22px;
     background-color: #f16d7f;
