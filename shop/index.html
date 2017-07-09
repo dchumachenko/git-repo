@@ -4,20 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <title>shop</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
     <link rel="shortcut icon" href="img/icon.png">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="modules/css/font-awesome.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="container header__container">
             <img class="logo" src="img/logo.svg" alt="logotype">
             <div class="shop__name">BRAN<span class="shop__name-letter">D</span></div>
             <button class="header-browse">Browse <i class="fa fa-caret-down fa-lg"></i></button>
             <input class="header__search" type="text" placeholder="Search for Item...">
             <button class="header__search-button"><i class="fa fa-search fa-lg"></i></button>
             <img class="basket" src="img/basket.png" alt="basket">
+            
+<!--            контент @media-->
+            <img class="basket_white" src="img/basket_white.png" alt="basket">
+            <i class="fa fa-user-o fa-2x header__container-menu" ></i>
+            <i class="fa fa-bars fa-2x header__container-menu"></i>
+<!--        end @media -->
+
             <div class="header-account">My Account <i class="fa fa-caret-down fa-lg"></i></div>
         </div>
     </header>
@@ -36,30 +49,42 @@
     <!--    Offers     -->
 
     <div class="maincontent">
-        <div class="container">
+    
+<!--            контент @media-->
+       <div class="maincontent__foto"><img src="img/slider/sliderFoto_1.png" alt="foto" ></div>
+<!--        end @media -->
+       
+        <div class="container maincontent__container">
             <div class="caption__box">
-                <h1>THE BRAND </h1><br>
-                <p class="caption__box-smalltext">OF LUXERIOUS <strong class="caption__box-color">FASHION</strong></p>
+                <h1>THE BRAND <br>
+                <p class="caption__box-smalltext">OF LUXERIOUS <strong class="caption__box-color">FASHION</strong></p></h1>
             </div>
         </div>
     </div>
     <div class="container offers">
-        <img src="img/img1.png" width="560" height="542" alt="image">
-        <p class="offer__text  offer1">HOT DEAL <br>
+        <div class="offers__item offer1">
+            <p class="offer__text">HOT DEAL <br>
             <span class="offer__text-color">FOR MEN</span></p>
-
-        <img src="img/img2.png" width="560" height="261" alt="image">
-        <p class="offer__text offer2">LUXIROUS &amp; TRENDY <br>
+            <div class="offers__item-background"></div>
+        </div>
+        <div class="offers__item offer2">
+           <p class="offer__text offer__text2">LUXIROUS &amp; TRENDY <br>
             <span class="offer__text-color">ACCESORIES</span></p>
-
-        <img src="img/img3.png" width="560" height="261" alt="image">
-        <p class="offer__text offer3">30% offer <br>
+            <div class="offers__item-background"></div>
+        </div>
+        <div class="offers__item offer3">
+            <p class="offer__text">30% off <br>
             <span class="offer__text-color">WOMEN</span></p>
-
-        <img src="img/img4.png" width="560" height="542" alt="image">
-        <p class="offer__text offer4">NEW ARRIVALS <br>
+            <div class="offers__item-background"></div>
+        </div>
+        <div class="offers__item offer4">
+           <p class="offer__text">NEW ARRIVALS <br>
             <span class="offer__text-color">FOR KIDS</span></p>
+            <div class="offers__item-background"></div>
+        </div>
     </div>
+
+
 
     <!--   content   -->
 
@@ -145,7 +170,7 @@
 
     <!--    Блок скидки/доставка-->
 
-    <div class="container">
+    <div class="container container__ddq">
         <div class="discount">
             <img src="img/discount_picture.png" alt="picture">
             <p class="discount__words">30%
@@ -169,9 +194,51 @@
             </div>
         </div>
     </div>
-
+    
+    <!--            контент @media-->
+    <div class="ddq">
+        <div class="container ddq__container">
+            <div class="ddq__container__delivery">
+                <img src="img/Forma%201.png" alt="picture" class="ddq__container-picture">
+                <p class="ddq__container-name">Free Delivery</p>
+                <p class="ddq__container-description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div class="ddq__container__discounts">
+                <img src="img/Forma%202.png" alt="picture" class="ddq__container-picture">
+                <p class="ddq__container-name">Sales & discounts</p>
+                <p class="ddq__container-description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div class="ddq__container__quality">
+                <img src="img/Forma%203.png" alt="picture" class="ddq__container-picture">
+                <p class="ddq__container-name">Quality assurance</p>
+                <p class="ddq__container-description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+        </div>
+    </div>
+    <!--        end @media -->
+    
     <!--    Отзывы клиентов-->
 
+   <!--            контент @media-->
+   <div class="letter_hidden">
+        <div class="letter_hidden__brands">
+            <img src="img/brand1.png" alt="brand1">
+            <img src="img/brand2.png" alt="brand2">
+            <img src="img/brand3.png"
+             alt="brand3">
+            <img src="img/brand4.png" alt="brand4">
+        </div>
+      
+       <div class="letter__create letter__hidden-create">
+                <p class="letter__create-header">Subscribe</p>
+                <p class="letter__create-smalltext">FOR OUR NEWLETTER AND PROMOTION</p>
+                <form>
+                    <input type="email" name="email" class="letter__create-email" placeholder="Enter Your Email">
+                    <input type="submit" class="letter__create-subscribe" value="Subscribe">
+                </form>
+            </div>
+   </div>
+   <!--        end @media -->
     <div class="letter">
         <div class="container">
             <div class="letter-comment">
@@ -183,7 +250,7 @@
                 <div class="letter-comment-slider"></div>
                 <div class="letter-comment-slider"></div>
             </div>
-            <div class="letter__create">
+            <div class="letter__create letter__create-visible">
                 <p class="letter__create-header">Subscribe</p>
                 <p class="letter__create-smalltext">FOR OUR NEWLETTER AND PROMOTION</p>
                 <form>
@@ -265,8 +332,8 @@
         </div>
     </div>
     <footer>
-        <div class="container">&copy; 2017 Brand All Rights Reserved. 
-        <span>
+        <div class="container">&copy; 2017 Brand All Rights Reserved.
+            <span>
             <a href="#"><i class="fa fa-facebook-square fa-lg"></i></a>   
             <a href="#"><i class="fa fa-twitter-square fa-lg"></i></a>
             <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
@@ -274,8 +341,9 @@
             <a href="#"><i class="fa fa-google-plus-square fa-lg"></i></a>
         </span>
         </div>
-        
     </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
-
 </html>

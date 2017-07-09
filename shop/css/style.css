@@ -1,12 +1,12 @@
 @font-face {
-     font-family: 'Lato', sans-serif;
-     src: url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+    font-family: 'Lato', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
 }
 
 body {
     margin: 0;
     padding: 0;
-} 
+}
 
 .container {
     max-width: 1140px;
@@ -14,14 +14,15 @@ body {
     position: relative;
 }
 
+
 /*стили header*/
 
 header {
     border-style: solid;
     border-width: 1px;
-    border-color:  #ececec;
+    border-color: #ececec;
     box-sizing: border-box;
-    background-color:  #ffffff;
+    background-color: #ffffff;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
     width: 100%;
     height: 90px;
@@ -30,7 +31,7 @@ header {
 
 .shop__name {
     font-family: 'Lato', sans-serif;
-    color:  #222222;
+    color: #222222;
     font-size: 27px;
     font-weight: 300;
     line-height: 32px;
@@ -39,10 +40,9 @@ header {
 }
 
 .shop__name-letter {
-    color:  #f16d7f;
+    color: #f16d7f;
     font-weight: 900;
 }
-
 
 .logo {
     float: left;
@@ -55,10 +55,12 @@ header {
     top: 29px;
     right: 157px;
 }
-.basket:hover{
+
+.basket:hover {
     transform: scale(1.3);
     cursor: pointer;
 }
+
 .header-account {
     margin-top: 22px;
     background-color: #f16d7f;
@@ -66,14 +68,16 @@ header {
     height: 38px;
     font-family: 'Lato', sans-serif;
     color: #ffffff;
-    font-size: 15px; 
+    font-size: 15px;
     font-weight: 400;
     line-height: 32px;
     text-align: center;
     float: right;
 }
 
-.header-browse, .header__search, .header__search-button {
+.header-browse,
+.header__search,
+.header__search-button {
     height: 38px;
     margin-top: 21px;
     font-family: 'Lato', sans-serif;
@@ -88,34 +92,34 @@ header {
 .header-browse {
     margin-left: 30px;
     width: 87px;
-    color:  #222222;
+    color: #222222;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
     background: -webkit-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
-background: -moz-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
-background: -o-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
-background: -ms-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
-background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -moz-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -o-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -ms-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
 }
 
 .header__search {
     width: 281px;
     padding-left: 16px;
-    color:  #a4a4a4;
+    color: #a4a4a4;
 }
 
 .header__search-button {
     width: 36px;
-    color:  #a4a4a4;
-    background-color:  #ffffff;
+    color: #a4a4a4;
+    background-color: #ffffff;
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
 }
 
+
 /* top-menu*/
 
 .top__menu {
-    height: 32px;
     padding-top: 19px;
 }
 
@@ -134,12 +138,13 @@ background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
 
 .top__menu-item a {
     font-family: 'Lato', sans-serif;
-    color:  #222222;
+    color: #222222;
     font-size: 14px;
     font-weight: 700;
     line-height: 26px;
     text-decoration: none;
 }
+
 
 /* Основное фото + Заголовок*/
 
@@ -152,7 +157,7 @@ background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
 
 .caption__box h1 {
     font-family: 'Lato', sans-serif;
-    color:  #222222;
+    color: #222222;
     font-size: 59.95px;
     padding-left: 13px;
     margin: 0;
@@ -166,17 +171,18 @@ background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
 }
 
 .caption__box-color {
-    color:  #f16d7f;
-    transform: scaleY(1.0009); 
+    color: #f16d7f;
+    transform: scaleY(1.0009);
 }
 
 .maincontent {
-    height: 614px; 
+    height: 614px;
     width: 100%;
     background-image: url(../img/main.png);
-    background-size:  cover;
+    background-size: cover;
     margin-bottom: 98px;
 }
+
 
 /* Offers*/
 
@@ -186,39 +192,55 @@ background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0;
 }
-
+.offers__item {
+    position: relative;
+    background-size: cover;
+}
+    
 .offer__text {
     padding: 20px 16px;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     position: absolute;
+    top: 26px;
     background-color: white;
     margin: 0;
 }
 
 .offer1 {
-    top: 26px;
+    width: 560px;
+    height: 542px;
+    background-image: url(../img/img1.png);
 }
+
 .offer2 {
-    top: 587px;
+    width: 560px;
+    height: 261px;
+    background-image: url(../img/img2.png);
 }
+
 .offer3 {
-    top: 26px;
-    left: 569px;
+    width: 560px;
+    height: 261px;
+    background-image: url(../img/img3.png);
 }
 
 .offer4 {
-    top: 308px;
-    left: 569px;
+     width: 560px;
+    height: 542px;
+    background-image: url(../img/img4.png);
 }
 
 .offer__text-color {
-    color:  #f16d7f;
+    color: #f16d7f;
     font-size: 30px;
 }
 
+
 /*content*/
+
 hgroup {
     margin-top: 95px;
 }
@@ -232,15 +254,14 @@ h3 {
     margin-bottom: 0;
 }
 
-
 h4 {
     font-family: 'Lato', sans-serif;
-    color:  #9f9f9f;
+    color: #9f9f9f;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
     margin-top: 0;
-  }
+}
 
 .content {
     display: flex;
@@ -251,11 +272,12 @@ h4 {
 
 figure {
     margin: 0 0 39px 0;
-    position: relative;    
+    position: relative;
 }
+
 .content-name {
     font-family: 'Lato', sans-serif;
-    font-size: 13px; 
+    font-size: 13px;
     font-weight: 400;
     margin: 19px 0 0 14px;
 }
@@ -263,7 +285,7 @@ figure {
 .content-preis {
     font-family: 'Lato', sans-serif;
     color: #f16d7f;
-    font-size: 16px; 
+    font-size: 16px;
     font-weight: 700;
     margin: 17px 0 0 14px;
 }
@@ -282,7 +304,7 @@ figure {
 }
 
 .hover:hover {
-   opacity: 1;
+    opacity: 1;
 }
 
 .browse_all {
@@ -301,6 +323,8 @@ figure {
 .browse_all:hover {
     cursor: pointer;
 }
+
+
 /*Блок скидки/доставка*/
 
 .discount {
@@ -308,26 +332,30 @@ figure {
     width: 767px;
     float: left;
 }
+
 .discount__words {
     position: absolute;
     top: 146px;
     left: 39px;
     font-family: 'Lato', sans-serif;
-    color:  #ffffff;
+    color: #ffffff;
     font-size: 53.62px;
     font-weight: 700;
     margin: 0;
     line-height: 34px;
 }
+
 .discount__words-red {
-    color: #f16d7f; 
+    color: #f16d7f;
 }
+
 .discount__words-small {
     font-size: 32.17px;
 }
+
 .delivery {
-    background-color:  #222224;
-    width: 373px;
+    background-color: #222224;
+    width: 343px;
     height: 529px;
     margin: 0;
     float: left;
@@ -335,22 +363,27 @@ figure {
     flex-direction: column;
     justify-content: space-around;
 }
+
 .delivery-picture {
     float: left;
     margin-top: 15px;
     margin-left: 36px;
 }
-.delivery-name, .delivery-description {
+
+.delivery-name,
+.delivery-description {
     font-family: 'Lato', sans-serif;
-    color:  #fbfbfb;
+    color: #fbfbfb;
     text-align: left;
     width: 219px;
     margin-left: 111px;
 }
+
 .delivery-name {
     font-size: 20px;
     font-weight: 700;
 }
+
 .delivery-description {
     font-size: 14px;
     font-weight: 300;
@@ -361,17 +394,20 @@ figure {
     text-decoration: none;
     color: inherit;
 }
+
 .delivery a:hover {
     text-decoration: underline;
 }
+
+
 /*Отзывы клиентов*/
 
 .letter {
     height: 438px;
     background-image: url(../img/letterBackground.png);
-    background-size:  cover;
+    background-size: cover;
     clear: both;
-    margin-top: 739px;
+    margin-top: 93px;
     width: 100%;
 }
 
@@ -381,7 +417,6 @@ figure {
     height: 438px;
     float: left;
     border-right: 1px solid #e1e1e1;
-        
 }
 
 .letter__comment-foto {
@@ -389,18 +424,21 @@ figure {
     float: left;
 }
 
-.letter__comment-item, .letter__comment-name, .letter__comment-adress {
+.letter__comment-item,
+.letter__comment-name,
+.letter__comment-adress {
     font-family: 'Lato', sans-serif;
     margin-left: 111px;
     max-width: 386px;
     font-size: 16px;
 }
+
 .letter__comment-item {
     padding-top: 123px;
     color: rgba(34, 34, 36, 0.67);
-    font-size: 16px; 
+    font-size: 16px;
     font-style: italic;
-    line-height: 26px; 
+    line-height: 26px;
     text-align: left;
 }
 
@@ -413,22 +451,24 @@ figure {
 
 .letter__comment-adress {
     margin-top: 0;
-    color:  #222224;
+    color: #222224;
     font-size: 12px;
     font-weight: 300;
     line-height: 14px;
 }
 
 .letter-comment-slider {
-    background-color:  #d6d6d6;
+    background-color: #d6d6d6;
     width: 38px;
     height: 4px;
     float: left;
     margin: 13px;
 }
+
 .slider1 {
     margin-left: 111px;
 }
+
 .letter-comment-slider:hover {
     background-color: #f16d7f;
 }
@@ -437,19 +477,20 @@ figure {
     width: 50%;
     float: right;
 }
-.letter__create-header, letter__create-smalltext, .letter__create-email {
+
+.letter__create-header,
+letter__create-smalltext,
+.letter__create-email {
     font-family: 'Lato', sans-serif;
-    color:  rgba(34, 34, 36, 0.67);
+    color: rgba(34, 34, 36, 0.67);
     font-weight: 400;
     text-align: center;
 }
 
 .letter__create-header {
     font-size: 24px;
-    width: inherit;
     text-align: center;
-    margin: 148px auto 0 146px;
-    
+    margin: 148px auto 0;
 }
 
 .letter__create-smalltext {
@@ -464,7 +505,7 @@ figure {
     height: 46px;
     margin-left: 92px;
     font-size: 14px;
-    padding-left: 28px; 
+    padding-left: 28px;
     background-color: #e1e1e1;
     text-align: left;
     width: 282px;
@@ -474,11 +515,11 @@ figure {
 }
 
 .letter__create-subscribe {
-    background-color:  #f16d7f;
+    background-color: #f16d7f;
     width: 104px;
     height: 46px;
     font-family: 'Lato', sans-serif;
-    color:  #ffffff;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
@@ -488,12 +529,13 @@ figure {
 }
 
 .letter_create form {
-   box-sizing: border-box;
+    box-sizing: border-box;
     margin-top: 35px;
     font-size: 0;
     display: flex;
-    align-content: center; 
+    align-content: center;
 }
+
 
 /*Cписок у футера*/
 
@@ -502,6 +544,7 @@ figure {
     justify-content: space-between;
     margin-top: 123px;
 }
+
 .list__brand {
     width: 427px;
 }
@@ -510,6 +553,7 @@ figure {
     float: none;
     padding-top: 0;
 }
+
 .list__brand-logo {
     padding-top: 0;
 }
@@ -517,21 +561,24 @@ figure {
 .list_brand-text {
     margin-top: 41px;
     font-family: 'Lato', sans-serif;
-    color:  #898989;
+    color: #898989;
     font-size: 14px;
     font-weight: 300;
 }
+
 .list__information-caption {
     font-family: 'Lato', sans-serif;
-    color:  #f16d7f;
+    color: #f16d7f;
     font-size: 18px;
     font-weight: 700;
     text-align: left;
 }
+
 .list ul li a {
     text-decoration: none;
     color: #898989;
 }
+
 .list ul li {
     list-style-type: none;
     text-align: left;
@@ -540,6 +587,7 @@ figure {
     line-height: 38px;
     font-weight: 400;
 }
+
 .list ul {
     padding-left: 0;
 }
@@ -547,6 +595,7 @@ figure {
 .list li:hover {
     text-decoration: underline;
 }
+
 
 /*FOOTER*/
 
@@ -557,10 +606,11 @@ footer {
     padding-top: 33px;
     padding-bottom: 23px;
     font-family: 'Lato', sans-serif;
-    color:  #7a7a7a;
+    color: #7a7a7a;
     font-size: 16px;
     font-weight: 400;
 }
+
 footer span {
     float: right;
     color: white;
@@ -569,9 +619,21 @@ footer span {
 footer a {
     color: inherit;
 }
+
 footer span i:hover {
     color: #f16d7f;
 }
 
 
+/*невидимые эл-ты для @media*/
 
+.basket_white,
+.dropdown-media,
+.header__container-menu,
+.maincontent__foto,
+.offers_accesories-hidden,
+.offers__item-background,
+.ddq, 
+.letter_hidden {
+    display: none;
+}
