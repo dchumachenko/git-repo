@@ -1,0 +1,61 @@
+.dropdown_btn {
+  width: 100%;
+  margin-top: 13px;
+  height: 40px;
+  text-align: left;
+  padding: 5px 0 5px 20px;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none; }
+
+.caret {
+  margin-right: 20px; }
+
+.dropdown_btn__menu {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  position: relative;
+  top: -15px;
+  border-top: none;
+  padding-top: 27px;
+  background-color: inherit; }
+  .dropdown_btn__menu li:nth-child(odd) {
+    background-color: rgba(85, 229, 255, 0.5); }
+  .dropdown_btn__menu li {
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 7px; }
+
+.quantity, .price {
+  float: right; }
+
+.quantity {
+  margin-right: 100px; }
+
+.price {
+  width: 35px;
+  text-align: right; }
+
+.back {
+  outline: none;
+  color: black;
+  margin: 0 auto; }
+  .back:hover {
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: white;
+    font-weight: 700; }
+
+.back__btn {
+  font-size: 20px;
+  background-color: #d76b0d;
+  margin: 50px 40%;
+  height: 50px;
+  width: 160px;
+  border-radius: 10px; }
+
+/*# sourceMappingURL=price_list.css.map */

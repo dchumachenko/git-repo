@@ -1,0 +1,408 @@
+header {
+  height: 140px; }
+
+.wrapper {
+  margin-top: 20px;
+  padding: 0 10%; }
+
+.info {
+  float: right;
+  text-align: center; }
+
+.logo {
+  width: 250px; }
+
+.info__phone {
+  font-family: "Ubuntu", sans-serif;
+  color: #052643;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 21px; }
+
+.info__time {
+  font-size: 15px; }
+
+.info__recall {
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  border-radius: 22px;
+  background-color: #a6530a;
+  color: white;
+  outline: none; }
+  .info__recall:hover {
+    transition-duration: 0.5s;
+    background-color: red; }
+
+.info__modal-item {
+  font-weight: 500;
+  width: 350px;
+  margin: 5px;
+  padding: 10px; }
+
+.info__modal-item_text {
+  height: 150px; }
+
+.modal-content {
+  text-align: center; }
+
+#top_nav {
+  display: flex;
+  position: sticky;
+  position: -moz-sticky;
+  position: -webkit-sticky;
+  top: 0;
+  margin: 0; }
+  #top_nav li {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    text-align: center; }
+    #top_nav li:nth-child(2n) {
+      margin: 0 10px; }
+  #top_nav a {
+    transition-duration: 1s; }
+
+.main {
+  width: 100%;
+  height: 700px;
+  padding-top: 30px;
+  background-image: url(../img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+h1 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 70px;
+  color: #052643; }
+
+.main__h1addition {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  text-align: center; }
+
+.main__slogan {
+  color: white;
+  background-color: rgba(0, 26, 43, 0.3);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 47px;
+  width: 450px;
+  margin: 100px 150px 0 0;
+  padding-left: 27px;
+  float: right; }
+
+.main__call_button {
+  clear: both;
+  width: 450px;
+  height: 4em;
+  border-radius: 42px;
+  background-color: #a6530a;
+  color: white;
+  font-size: 20px;
+  float: right;
+  margin: 100px 150px 0 0;
+  outline: none; }
+  .main__call_button:hover {
+    background-color: red;
+    transition-duration: 0.5s; }
+
+.fa-share {
+  margin-right: 1em; }
+
+.aboutus__wrapper {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .aboutus__wrapper figure {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: -ms-center; }
+    .aboutus__wrapper figure figcaption {
+      margin-top: 40px;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 900;
+      font-size: 19px;
+      text-align: center; }
+
+.aboutus__capture {
+  margin-top: 6rem;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: red; }
+
+.aboutus__description {
+  text-align: justify;
+  font-family: "Ubuntu", sans-serif;
+  color: #052643;
+  font-size: 19px; }
+
+.aboutus__foto {
+  width: 250px;
+  height: 250px;
+  border: 10px solid #a6530a;
+  border-radius: 50%; }
+
+.aboutus__foto-1 {
+  background: url(../img/aboutus1.jpg);
+  background-position: -71px 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.aboutus__foto-2 {
+  background: url(../img/aboutus2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -50px 0; }
+
+.aboutus__foto-3 {
+  background: url(../img/aboutus3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -98px 0; }
+
+.rates {
+  background-color: #a6530a;
+  margin-top: 6rem;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  .rates li {
+    font-size: 19px; }
+    .rates li a {
+      color: white;
+      font-family: "Ubuntu", sans-serif;
+      letter-spacing: 2px; }
+      .rates li a:hover {
+        color: #333; }
+
+.rates__capture {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  color: white; }
+
+.rates__tabs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 5rem; }
+
+.rates__gifts, .rates__materials {
+  background-color: rgba(133, 174, 240, 0.26);
+  width: 340px;
+  min-height: 526px;
+  padding: 20px;
+  float: left; }
+  .rates__gifts div, .rates__materials div {
+    margin-top: 20px; }
+
+.rates__gifts-capture {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  clear: both;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: white; }
+
+.rates__gifts-icon {
+  float: left; }
+
+.rates__gifts-item {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+  margin-left: 80px;
+  padding-top: 16px; }
+
+.rates__works {
+  background-color: white;
+  padding: 10px 10px 55px;
+  width: 40%;
+  min-height: 526px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+.rates__works__box1 ul {
+  margin-bottom: 6px; }
+  .rates__works__box1 ul li {
+    list-style-type: none;
+    font-family: "Ubuntu", sans-serif;
+    color: #052643;
+    font-size: 13px;
+    line-height: 15px; }
+
+.rates__works-capture, .rates__clever-capture {
+  font-family: "Ubuntu", sans-serif;
+  color: #052643;
+  text-align: center;
+  font-size: 24px;
+  margin: 0 0 10px 0; }
+
+.rates__works-ul_capture {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 0 0 5px 0; }
+  .rates__works-ul_capture i {
+    color: gold; }
+
+.rates__works-old_price {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #052643;
+  opacity: 0.7; }
+  .rates__works-old_price span {
+    color: #052643;
+    text-decoration: line-through; }
+
+.rates__works-new_price, .rates__clever-price {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 28px;
+  font-weight: 900; }
+
+.rates__call-btn {
+  background-color: red;
+  position: relative;
+  bottom: 60px;
+  z-index: 900; }
+
+.rates__materials-capture {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  margin-bottom: 30px; }
+
+.rates__materials-icon {
+  margin-left: 18px; }
+
+.rates__materials-list {
+  margin-top: 10px;
+  padding-left: 18px; }
+  .rates__materials-list li {
+    list-style-type: none;
+    color: white;
+    font-size: 14px; }
+
+.rates-price_list {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 23%;
+  border: 2px solid white;
+  border-style: outset;
+  border-radius: 25px;
+  background-color: gold;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  outline: none;
+  color: black; }
+  .rates-price_list:hover {
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: black;
+    font-weight: 900; }
+
+.rates__clever {
+  width: 100%;
+  height: 526px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 55px; }
+
+.rates__clever__item {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row; }
+
+.rates__cleverlogo {
+  height: 300px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.rates__cleverlogo-1 {
+  height: 38px; }
+
+.rates__cleverlogo-2 {
+  height: 50px; }
+
+.rates__cleverlogo-3 {
+  height: 51px;
+  width: 145px; }
+
+.rates__cleverlogo-4 {
+  height: 38px;
+  width: 140px; }
+
+.stage-capture {
+  margin-top: 50px; }
+
+.stage__item {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.stage__item__box {
+  height: 130px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(72, 39, 7, 0.7); }
+  .stage__item__box img {
+    height: 85px; }
+
+.stage__item-dscrp {
+  width: 130px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  color: #052643;
+  font-weight: 600;
+  margin-top: 15px; }
+
+.stage-share {
+  transform: rotate(44deg);
+  height: 90px;
+  position: relative;
+  top: -30px; }
+
+.calc {
+  background-image: url(../img/Mathematics-Wallpaper.jpg);
+  background-size: cover; }
+
+.calc__item {
+  max-width: 500px;
+  margin: 0 auto; }
+  .calc__item label {
+    color: white; }
+
+.calc-capture {
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #a6530a;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КОМПЕТЕНТ СТРОЙ</title>
+    <link rel="shortcut icon" href="img/logaster_No_1_small_size_185x73_pixels_(PNG)/icon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!--  шрифт-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="modules/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/css/price_list.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <img src="img/logaster_No_1_small_size_185x73_pixels_(PNG)/1_Primary_logo_on_transparent_185x73.png" class="logo" alt="logotype">
+            <div class="info">
+                <p class="info__phone">+7 (929) 930-76-74 <br><span class="info__time">c 9:00 до 23:00 ежедневно</span></p>
+                <!-- Триггер кнопка модали-->
+                <button type="button" class="info__recall" data-toggle="modal" data-target="#myModal">
+  <i class="fa fa-phone"></i>&emsp; Обратный звонок
+</button>
+                <!-- Модаль -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Заказать обратный звонок</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="">
+                                    <input type="text" name="name" class="info__modal-item" placeholder="введите ваше имя" required><br>
+                                    <input type="tel" name="tel" class="info__modal-item" placeholder="введите номер телефона" required><br>
+                                    <textarea class="info__modal-item info__modal-item_text" name="comments" placeholder="комментарии"></textarea><br>
+                                    <input type="submit" class="info__modal-item_btn btn btn-primary btn-lg" value="отправить">
+
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <h1>ПРАЙС - ЛИСТ</h1>
+        <div class="dropdown">
+            <button id="dLabel" class="dropdown_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>
+    Демонтажные работы
+    </button>
+            <ul class="dropdown-menu dropdown_btn__menu" aria-labelledby="dLabel">
+                <li><span class="text">Демонтаж гипсового короба на потолке (вентиляционного) в туалете сантехкабины</span><span class="price">1500</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж гипсолитной сантехкабины (без армированного пола)<span class="price">3500</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж шиферной сантехкабины (без армированного пола)<span class="price">3000</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж армированного пола сантехкабины<span class="price">3000</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж бетонных порожков сантехкабины<span class="price">350</span><span class="quantity">пог.м.</span></li>
+                <li>Демонтаж фасадной стены (кирпич или пеноблок, утеплитель)<span class="price">2000</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж подоконной части (кирпич или пеноблок)<span class="price">4000</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж подоконной части (бетон)<span class="price">6500</span><span class="quantity">шт.</span></li>
+                <li>Расширение проема в фасадной стене (бетон)<span class="price">1500</span><span class="quantity">пог.м.</span></li>
+                <li>Расширение проема в фасадной стене (кирпич или пеноблок)<span class="price">800</span><span class="quantity">пог.м.</span></li>
+                <li>Сбивка оконной «четверти» (бетон)<span class="price">800</span><span class="quantity">пог.м.</span></li>
+                <li>Сбивка оконной «четверти» (кирпич)<span class="price">500</span><span class="quantity">пог.м.</span></li>
+                <li>Демонтаж оконного балконного блока (без сохранения)<span class="price">750</span><span class="quantity">шт.</span></li>
+                <li>Прорезание проема в несущей бетонной стене 2,1х0,9м (выполняют субподрядчики)<span class="price">30000</span><span class="quantity">шт.</span></li>
+                <li>Металлоусиление стандартного проема швеллером без стоимости материалов (выполняют субподрядчики)<span class="price">20000</span><span class="quantity">шт.</span></li>
+                <li>Прорезание нового проема в ненесущей стене (бетон, толщина до 10 см)<span class="price">2700</span><span class="quantity">кв.м.</span></li>
+                <li>Прорезание нового проема в ненесущей стене (кирпич, гипс толщина до 15 см)<span class="price">1800</span><span class="quantity">кв.м.</span></li>
+                <li>Расширение проема в бетонной стене (толщина более 14 см)<span class="price">1800</span><span class="quantity">пог.м.</span></li>
+                <li>Расширение проема в бетонной стене (толщина от 10 до 14 см)<span class="price">1200</span><span class="quantity">пог.м.</span></li>
+                <li>Расширение проема в бетонной стене (толщина до 10 см)<span class="price">900</span><span class="quantity">пог.м.</span></li>
+                <li>Расширение проема в кирпичной или гипсовой стене (толщина до 15 см)<span class="price">450</span><span class="quantity">пог.м.</span></li>
+                <li>Расширение проема в кирпичной или гипсовой стене (толщина от 15 до 40см)<span class="price">850</span><span class="quantity">пог.м.</span></li>
+                <li>Демонтаж бетонных перегородок (толщина до 10 см)<span class="price">1200</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж бетонных перегородок (толщина от 10 до 14 см)<span class="price">1500</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж гипсобетонных перегородок (толщина до 10 см)<span class="price">750</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж легких кирпичных или гипсовых перегородок (толщина до 15 см)<span class="price">400</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж кирпичных или гипсовых перегородок (толщина от 15 до 25 см)<span class="price">550</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж кирпичных или гипсовых перегородок (толщина от 25 до 40 см)<span class="price">700</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж фанерных или гипсокартоновых перегородок<span class="price">100</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж дверей (без сохранения)<span class="price">250</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж встроенных стенных шкафов<span class="price">250</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж антресолей<span class="price">250</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж шкафа в санузле<span class="price">250</span><span class="quantity">шт.</span></li>
+                <li>Зачистка стен (обои до 3 слоев, плитка, вагонка, панели, гипсокартон, загрубление масляной краски)<span class="price">80</span><span class="quantity">кв.м.</span></li>
+                <li>Зачистка потолка (обои до 3 слоев, побелка, вагонка, панели, гипсокартон, загрубление масляной краски)<span class="price">80</span><span class="quantity">кв.м.</span></li>
+                <li>Зачистка стен от шпаклевки<span class="price">90</span><span class="quantity">кв.м.</span></li>
+                <li>Зачистка потолка от шпаклевки<span class="price">100</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж каркаса гипсокартонового потолка<span class="price">90</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж каркаса гипсокартона на стенах и перегородках<span class="price">90</span><span class="quantity">кв.м.</span></li>
+                <li>Снятие линолеума, ковролина<span class="price">80</span><span class="quantity">кв.м.</span></li>
+                <li>Снятие паркетной доски, ламината<span class="price">90</span><span class="quantity">кв.м.</span></li>
+                <li>Снятие паркета<span class="price">120</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж половой доски<span class="price">135</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж фанеры с пола<span class="price">120</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж оргалита на битуме с пола<span class="price">300</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж лаг пола<span class="price">80</span><span class="quantity">кв.м.</span></li>
+                <li>Сбивка плитки с пола<span class="price">80</span><span class="quantity">	кв.м.</span></li>
+                <li>Демонтаж плинтуса<span class="price">20</span><span class="quantity">пог.м.</span></li>
+                <li>Сбивка штукатурки со стен и потолка<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Сбивка откосов окон<span class="price">150</span><span class="quantity">пог.м.</span></li>
+                <li>Демонтаж пластиковых откосов<span class="price">120</span><span class="quantity">пог.м.</span></li>
+                <li>Сбивка стяжки (толщина до 5 см)<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Сбивка стяжки (толщина более 5 см)<span class="price">200</span><span class="quantity">кв.м.</span></li>
+                <li>Выемка засыпки пола (толщина слоя до 10 см)<span class="price">80</span><span class="quantity">	кв.м.</span></li>
+                <li>Выемка засыпки пола (толщина слоя более 10 см)<span class="price">100</span><span class="quantity">кв.м.</span></li>
+                <li>Демонтаж подоконников (без сохранения)<span class="price">120</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж ванны (без сохранения)<span class="price">500</span><span class="quantity">шт.</span></li>
+                <li>Разборка душевой кабины (без сохранения)<span class="price">900</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж унитаза, раковины (без сохранения)<span class="price">200</span><span class="quantity">	шт.</span></li>
+                <li>Демонтаж полотенцесушителя<span class="price">200</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж труб водоснабжения и канализации в санузле<span class="price">300</span><span class="quantity">комплект</span></li>
+                <li>Демонтаж напольных труб отопления<span class="price">30</span><span class="quantity">пог.м.</span></li>
+                <li>Демонтаж розеток и выключателей<span class="price">70</span><span class="quantity">шт.</span></li>
+                <li>Демонтаж люстры (без сохранения)<span class="price">120</span><span class="quantity">шт.</span></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button id="dLabel" class="dropdown_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>
+    Стены
+    </button>
+            <ul class="dropdown-menu dropdown_btn__menu" aria-labelledby="dLabel">
+                <li>Кладка перегородок из гипсоблоков, пеноблоков<span class="price">450</span><span class="quantity">кв.м.</span></li>
+                <li>Кладка криволинейных перегородок из гипсоблоков или пеноблоков<span class="price">700</span><span class="quantity">кв.м.</span></li>
+                <li>Кладка перегородок из пеноблоков (толщина более 10 см)<span class="price">550</span><span class="quantity">кв.м.</span></li>
+                <li>Кладка перегородок из кирпича (толщина 1/2 кирпича)<span class="price">700</span><span class="quantity">кв.м.</span></li>
+                <li>Кладка перегородок из кирпича (толщина 1 кирпич)<span class="price">1000</span><span class="quantity">кв.м.</span></li>
+                <li>Кладка криволинейных перегородок из кирпича (толщина 1/2 кирпича)<span class="price">1200</span><span class="quantity">кв.м.</span></li>
+                <li>Заужение дверного проема гипсоблоками или пеноблоками<span class="price">350</span><span class="quantity">пог.м.</span></li>
+                <li>Заделка окна в санузле блоками<span class="price">1000</span><span class="quantity">шт.</span></li>
+                <li>Кладка стеклоблоков<span class="price">150</span><span class="quantity">шт.</span></li>
+                <li>Грунтование стен под штукатурку (бетоноконтактом)<span class="price">45</span><span class="quantity">кв.м.</span></li>
+                <li>Оштукатуривание поверхности стен без маяков (протяжка)<span class="price">220</span><span class="quantity">кв.м.</span></li>
+                <li>Оштукатуривание поверхности стен по маякам (толщина до 3 см)<span class="price">350</span><span class="quantity">кв.м.</span></li>
+                <li>Оштукатуривание поверхности криволинейных стен по маякам (толщина до 3 см)<span class="price">500</span><span class="quantity">кв.м.</span></li>
+                <li>Оштукатуривание поверхности стен по маякам (толщина более 3 см)<span class="price">450</span><span class="quantity">кв.м.</span></li>
+                <li>Оштукатуривание поверхности криволинейных стен по маякам (толщина более 3 см)<span class="price">700</span><span class="quantity">кв.м.</span></li>
+                <li>Протягивание стен штукатуркой под плинтус<span class="price">150</span><span class="quantity">пог.м.</span></li>
+                <li>Протягивание углов штукатуркой<span class="price">200</span><span class="quantity">пог.м.</span></li>
+                <li>Расшивка, пропенивание и заделка швов панелей<span class="price">110</span><span class="quantity">пог.м.</span></li>
+                <li>Устройство обмазочной гидроизоляции стен<span class="price">250</span><span class="quantity">кв.м.</span></li>
+                <li>Монтаж штукатурной сетки<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Возведение перегородок из гипсокартона в один слой (с возведением каркаса)<span class="price">500</span><span class="quantity">кв.м.</span></li>
+                <li>Обшивка стен гипсокартоном в один слой (с возведением каркаса)<span class="price">400</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен гипсокартоном в один слой на монтажный клей<span class="price">400</span><span class="quantity">кв.м.</span></li>
+                <li>Монтаж дополнительного слоя гипсокартона<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Утепление стен пеноплексом<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Шумоизоляция стен минплитой<span class="price">150</span><span class="quantity">кв.м.кв.м.</span></li>
+                <li>Шумоизоляция стен ЗИПС панелями<span class="price">350</span><span class="quantity">кв.м.</span></li>
+                <li>Шумоизоляция стен панелями Изоплаат<span class="price">200</span><span class="quantity">кв.м.</span></li>
+                <li>Грунтование стен под шпаклевку<span class="price">30</span><span class="quantity">кв.м.</span></li>
+                <li>Шпаклевание поверхности<span class="price">300</span><span class="quantity">кв.м.</span></li>
+                <li>Шпаклевание криволинейной поверхности<span class="price">420</span><span class="quantity">кв.м.</span></li>
+                <li>Шпаклевание поверхности финишное (под покраску)<span class="price">130</span><span class="quantity">кв.м.</span></li>
+                <li>Шпаклевание криволинейной поверхности финишное (под покраску)<span class="price">190</span><span class="quantity">кв.м.</span></li>
+                <li>Шлифовка стен<span class="price">70</span><span class="quantity">кв.м.</span></li>
+                <li>Наклейка малярной сетки<span class="price">135</span><span class="quantity">кв.м.</span></li>
+                <li>Наклейка стеклоткани<span class="price">135</span><span class="quantity">кв.м.</span></li>
+                <li>Проклейка швов гипсокартона серпянкой<span class="price">60</span><span class="quantity">кв.м.</span></li>
+                <li>Грунтование стен под обои или покраску<span class="price">30</span><span class="quantity">кв.м.</span></li>
+                <li>Оклейка стен обоями сплошными (бумажные, виниловые или флизелиновые)<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Оклейка стен обоями сплошными (бумажные, виниловые или флизелиновые)<span class="price">200</span><span class="quantity">кв.м.</span></li>
+                <li>Оклейка стен фреской<span class="price">1200</span><span class="quantity">кв.м.</span></li>
+                <li>Оклейка стен фотообоями<span class="price">600</span><span class="quantity">кв.м.</span></li>
+                <li>Оклейка стен обоями из бамбука<span class="price">600</span><span class="quantity">кв.м.</span></li>
+                <li>Наклейка обойного бордюра<span class="price">100</span><span class="quantity">пог.м.</span></li>
+                <li>Окрашивание стен (2 слоя)<span class="price">130кв.м.</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен декоративной штукатуркой или декоративной краской однослойной (кроме венецианской)<span class="price">550</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен декоративной штукатуркой или декоративной краской двухслойной (кроме венецианской)<span class="price">800</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен жидкими обоями<span class="price">250</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен 3D панелями<span class="price">600</span><span class="quantity">кв.м.</span></li>
+                <li>Форматирование дверного проема<span class="price">800</span><span class="quantity">шт.</span></li>
+                <li>Установка металлических уголков на внешние углы (за исключением откосов и проемов)<span class="price">80пог.м.</span><span class="quantity">пог.м.</span></li>
+                <li>Оштукатуривание откосов окон с установкой металлических уголков (ширина до 30 см)<span class="price">300</span><span class="quantity">пог.м.</span></li>
+                <li>Оштукатуривание откосов окон с установкой металлических уголков (ширина от 30 до 50 см)<span class="price">400</span><span class="quantity">пог.м.</span></li>
+                <li>Устройство откосов окон из гипсокартона (ширина до 30 см)<span class="price">300</span><span class="quantity">пог.м.</span></li>
+                <li>Устройство откосов окон из гипсокартона (ширина от 30 до 50 см)<span class="price">400</span><span class="quantity">пог.м.</span></li>
+                <li>Шпаклевание откосов окон (ширина до 30 см)<span class="price">150</span><span class="quantity">пог.м.</span></li>
+                <li>Шпаклевание откосов окон (ширина от 30 до 50 см)<span class="price">210</span><span class="quantity">пог.м.</span></li>
+                <li>Окрашивание откосов окон (ширина до 30 см)<span class="price">120</span><span class="quantity">пог.м.</span></li>
+                <li>Окрашивание откосов окон (ширина от 30 до 50 см)<span class="price">150</span><span class="quantity">пог.м.</span></li>
+                <li>Оштукатуривание проемов с установкой металлических уголков (ширина до 30 см)<span class="price">300</span><span class="quantity">пог.м.</span></li>
+                <li>Оштукатуривание проемов с установкой металлических уголков (ширина от 30 до 50 см)<span class="price">400</span><span class="quantity">пог.м.</span></li>
+                <li>Оштукатуривание ригелей, балок (ширина до 30 см)<span class="price">350</span><span class="quantity">пог.м.</span></li>
+                <li>Оштукатуривание ригелей, балок (ширина от 30 до 50 см)<span class="price">500</span><span class="quantity">пог.м.</span></li>
+                <li>Устройство торцевой границы ниши или проема в гипсокартоне (ширина до 30 см)<span class="price">350</span><span class="quantity">пог.м.</span></li>
+                <li>Устройство торцевой границы ниши или проема в гипсокартоне (ширина от 30 до 50 см)<span class="price">420</span><span class="quantity">пог.м.</span></li>
+                <li>Оштукатуривание арочных проемов (ширина до 30 см)<span class="price">600</span><span class="quantity">пог.м.</span></li>
+                <li>Оштукатуривание арочных проемов (ширина от 30 до 50 см)<span class="price">850</span><span class="quantity">пог.м.</span></li>
+                <li>Шпаклевание проемов, ригелей, ниш (ширина до 30 см)<span class="price">150</span><span class="quantity">пог.м.</span></li>
+                <li>Шпаклевание проемов, ригелей, ниш (ширина от 30 до 50 см)<span class="price">210</span><span class="quantity">пог.м.</span></li>
+                <li>Окрашивание или оклейка обоями проемов, ригелей, ниш (ширина до 30 см)<span class="price">120</span><span class="quantity">пог.м.</span></li>
+                <li>Окрашивание или оклейка обоями проемов, ригелей, ниш (ширина от 30 до 50 см)<span class="price">150</span><span class="quantity">пог.м.</span></li>
+                <li>Установка, шпаклевание и окраска молдингов (пенопласт или полиуретан, ширина до 3 см)<span class="price">150</span><span class="quantity">пог.м.</span></li>
+                <li>Установка, шпаклевание и окраска молдингов (пенопласт или полиуретан, ширина более 3 см)<span class="price">200</span><span class="quantity">пог.м.</span></li>
+                <li>Установка декоративных пластиковых уголков<span class="price">120</span><span class="quantity">пог.м.</span></li>
+                <li>Окрашивание труб отопления<span class="price">200</span><span class="quantity">пог.м.</span></li>
+                <li>Окрашивание радиаторов отопления<span class="price">1000</span><span class="quantity">шт.</span></li>
+                <li>Окрашивание окна без зашкуривания и шпаклевки<span class="price">700</span><span class="quantity">кв.м.</span></li>
+                <li>Окрашивание окна с частичным зашкуриванием и шпаклевкой<span class="price">1100</span><span class="quantity">кв.м.</span></li>
+                <li>Окрашивание подоконников<span class="price">450</span><span class="quantity">пог.м.</span></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button id="dLabel" class="dropdown_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>
+    Пололки
+    </button>
+            <ul class="dropdown-menu dropdown_btn__menu" aria-labelledby="dLabel">
+                <li>Расшивка, пропенивание и заделка швов панелей<span class="price">110</span><span class="quantity">пог.м.</span></li>
+                <li>Грунтование потолка под штукатурку (бетоноконтактом)<span class="price">45</span><span class="quantity">кв.м.</span></li>
+                <li>Оштукатуривание поверхности потолка простое (протяжка)<span class="price">250</span><span class="quantity">кв.м.</span></li>
+                <li>Оштукатуривание поверхности потолка по маякам (толщина до 3 см)<span class="price">380</span><span class="quantity">кв.м.</span></li>
+                <li>Оштукатуривание поверхности потолка по маякам (толщина более 3 см)<span class="price">500</span><span class="quantity">кв.м.</span></li>
+                <li>Монтаж штукатурной сетки<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство одноуровневого гипсокартонного подвесного потолка в один слой<span class="price">450</span><span class="quantity">кв.м.</span></li>
+                <li>Монтаж дополнительного слоя гипсокартона<span class="price">180</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство прямолинейных двухуровневых торцевых границ подвесного потолка<span class="price">420</span><span class="quantity">пог.м.</span></li>
+                <li>Устройство криволинейных двухуровневых торцевых границ подвесного потолка<span class="price">510</span><span class="quantity">пог.м.</span></li>
+                <li>Устройство прямолинейных двухуровневых торцевых границ подвесного потолка для подкарнизного света<span class="price">790</span><span class="quantity">пог.м.</span></li>
+                <li>Устройство криволинейных двухуровневых торцевых границ подвесного потолка для подкарнизного света<span class="price">980</span><span class="quantity">пог.м.</span></li>
+                <li>Утепление потолка пеноплексом<span class="price">165</span><span class="quantity">кв.м.</span></li>
+                <li>Шумоизоляция потолка минплитой<span class="price">165</span><span class="quantity">кв.м.</span></li>
+                <li>Шумоизоляция потолка ЗИПС панелями<span class="price">400</span><span class="quantity">кв.м.</span></li>
+                <li>Шумоизоляция потолка панелями Изоплаат<span class="price">250</span><span class="quantity">кв.м.</span></li>
+                <li>Грунтование потолка под шпаклевку<span class="price">30</span><span class="quantity">кв.м.</span></li>
+                <li>Проклейка швов гипсокартона серпянкой<span class="price">60</span><span class="quantity">кв.м.</span></li>
+                <li>Наклейка малярной сетки<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Наклейка стеклоткани<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Шпаклевание поверхности<span class="price">300</span><span class="quantity">кв.м.</span></li>
+                <li>Шпаклевание поверхности финишное (под покраску)<span class="price">130</span><span class="quantity">кв.м.</span></li>
+                <li>Шлифовка потолка<span class="price">70</span><span class="quantity">кв.м.</span></li>
+                <li>Грунтование потолка под покраску<span class="price">30</span><span class="quantity">кв.м.</span></li>
+                <li>Окрашивание потолка (2 слоя)<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Шпаклевание торцевых границ двухуровневого подвесного потолка, с установкой армирующих уголков<span class="price">210</span><span class="quantity">пог.м.</span></li>
+                <li>Шпаклевание торцевых границ двухуровневого подвесного потолка для подкарнизного света, с установкой армирующих уголков<span class="price">360</span><span class="quantity">пог.м.</span></li>
+                <li>Окрашивание торцевых границ двухуровневого подвесного потолка<span class="price">120</span><span class="quantity">пог.м.</span></li>
+                <li>Установка, шпаклевание и окраска галтелей (пенопласт или полиуретан, ширина до 3 см)<span class="price">150</span><span class="quantity">пог.м.</span></li>
+                <li>Установка, шпаклевание и окраска галтелей (пенопласт или полиуретан, ширина более 3 см)<span class="price">200</span><span class="quantity">пог.м.</span></li>
+                <li>Установка, шпаклевание и окраска потолочной розетки (пенопласт или полиуретан)<span class="price">500</span><span class="quantity">шт.</span></li>
+                <li>Монтаж подвесного потолка реечного<span class="price">800</span><span class="quantity">кв.м.</span></li>
+                <li>Монтаж подвесного потолка армстронг<span class="price">800</span><span class="quantity">кв.м.</span></li>
+                <li>Монтаж подвесного зеркального потолка<span class="price">1000</span><span class="quantity">кв.м.</span></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button id="dLabel" class="dropdown_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>
+    Полы
+    </button>
+            <ul class="dropdown-menu dropdown_btn__menu">
+                <li>Грунтование пола бетоноконтактом<span class="price">45</span><span class="quantity">кв.м.</span></li>
+                <li>Грунтование пола под наливную стяжку<span class="price">30</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство наливной стяжки (по плоскости в пределах каждого отдельного помещения)<span class="price">280</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство цементной стяжки (толщина до 3 см)<span class="price">300</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство цементной стяжки (толщина до 6 см)<span class="price">360</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство цементной стяжки (толщина более 6 см)<span class="price">450</span><span class="quantity">кв.м.</span></li>
+                <li>Финишное выравнивание стяжки наливным полом<span class="price">200</span><span class="quantity">кв.м.</span></li>
+                <li>Добавление керамзита в нижний слой стяжки (толщина слоя до 10 см)<span class="price">120</span><span class="quantity">кв.м.</span></li>
+                <li>Армирование стяжки сеткой<span class="price">120</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство сухой стяжки Кнауф (без учета засыпки)<span class="price">400</span><span class="quantity">кв.м.</span></li>
+                <li>Укладка и выравнивание засыпки сухой стяжки Кнауф<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство обмазочной гидроизоляции полов (с заводом на стены)<span class="price">250</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство рулонной гидроизоляции полов (с заводом на стены)<span class="price">750</span><span class="quantity">кв.м.</span></li>
+                <li>Утепление пола пеноплексом<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Шумоизоляция пола Шуманетом<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Шумоизоляция пола панелями Изоплаат<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство лаг из бруса на пол под фанеру или доску<span class="price">200</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство чернового пола из доски (без устройства лаг)<span class="price">250</span><span class="quantity">кв.м.</span></li>
+                <li>Укладка фанеры<span class="price">200</span><span class="quantity">кв.м.</span></li>
+                <li>Шлифовка фанеры (под паркет)<span class="price">180</span><span class="quantity">кв.м.</span></li>
+                <li>Настилка оргалита<span class="price">150</span><span class="quantity">кв.м.</span></li>
+                <li>Настилка линолеума<span class="price">180</span><span class="quantity">кв.м.</span></li>
+                <li>Настилка ковролина<span class="price">180</span><span class="quantity">кв.м.</span></li>
+                <li>Укладка ПВХ плитки<span class="price">350</span><span class="quantity">кв.м.</span></li>
+                <li>Укладка плиточного коврового покрытия<span class="price">350</span><span class="quantity">кв.м.</span></li>
+                <li>Настилка подложки под ламинат или паркетную доску<span class="price">25</span><span class="quantity">кв.м.</span></li>
+                <li>Настилка ламината<span class="price">220</span><span class="quantity">кв.м.</span></li>
+                <li>Настилка ламината по диагонали<span class="price">265</span><span class="quantity">кв.м.</span></li>
+                <li>Укладка паркетной доски или замкового пробкового покрытия<span class="price">240</span><span class="quantity">кв.м.</span></li>
+                <li>Укладка паркетной доски или замкового пробкового покрытия по диагонали<span class="price">285</span><span class="quantity">кв.м.</span></li>
+                <li>Укладка массивной доски<span class="price">700</span><span class="quantity">кв.м.</span></li>
+                <li>Укладка штучного паркета простого рисунка (палуба или елочка)<span class="price">900</span><span class="quantity">кв.м.</span></li>
+                <li>Циклевка (шлифовка) паркета (минимум 20 кв.м.)<span class="price">400</span><span class="quantity">кв.м.</span></li>
+                <li>Шпаклевание старого паркета<span class="price">250</span><span class="quantity">кв.м.</span></li>
+                <li>Покрытие паркета лаком 3 слоя (минимум 20 кв.м.)<span class="price">250</span><span class="quantity">кв.м.</span></li>
+                <li>Установка плинтуса пластикового<span class="price">80</span><span class="quantity">пог.м.</span></li>
+                <li>Установка плинтуса МДФ<span class="price">120</span><span class="quantity">пог.м.</span></li>
+                <li>Установка плинтуса деревянного<span class="price">140</span><span class="quantity">пог.м.</span></li>
+                <li>Покрытие плинтуса лаком 2 слоя<span class="price">80</span><span class="quantity">пог.м.</span></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button id="dLabel" class="dropdown_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>
+    Плиточные работы
+    </button>
+            <ul class="dropdown-menu dropdown_btn__menu">
+                <li>Грунтование стен и пола под плитку<span class="price">30</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен или пола керамической плиткой (длина и ширина сторон плитки более 20см)<span class="price">720</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен или пола керамической плиткой по диагонали (длина и ширина сторон плитки более 20см)<span class="price">820</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен или пола керамогранитом (длина и ширина сторон плитки более 20см)<span class="price">780</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен или пола керамогранитом диагонали (длина и ширина сторон плитки более 20см)<span class="price">880</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен или пола керамической плиткой (длина или ширина сторон плитки менее 20см)<span class="price">780</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен или пола керамической плиткой по диагонали (длина или ширина сторон плитки менее 20см)<span class="price">880</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен или пола керамогранитом (длина или ширина сторон плитки менее 20см)<span class="price">840</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен или пола керамогранитом по диагонали (длина или ширина сторон плитки менее 20см)<span class="price">940</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен или пола плиткой-мозаикой на подложке (не штучная)<span class="price">1050</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен или пола декоративным камнем<span class="price">950</span><span class="quantity">кв.м.</span></li>
+                <li>Облицовка стен или пола мрамором<span class="price">1500</span><span class="quantity">кв.м.</span></li>
+                <li>Укладка декоративной вставки из керамической плитки меньшего размера<span class="price">150</span><span class="quantity">шт.</span></li>
+                <li>Укладка бордюра из керамической плитки (кроме мозаики)<span class="price">300</span><span class="quantity">пог.м.</span></li>
+                <li>Укладка бордюра из плитки-мозаики<span class="price">400</span><span class="quantity">пог.м.</span></li>
+                <li>Укладка плинтуса из керамической плитки (без распила)<span class="price">300</span><span class="quantity">пог.м.</span></li>
+                <li>Облицовка керамической плиткой откосов и проемов (кроме мозаики)<span class="price">500</span><span class="quantity">пог.м.</span></li>
+                <li>Облицовка плиткой-мозаикой откосов и проемов<span class="price">700</span><span class="quantity">пог.м.</span></li>
+                <li>Изготовление порожков из керамической плитки в санузле<span class="price">400</span><span class="quantity">шт.</span></li>
+                <li>Облицовка керамической плиткой ступеней<span class="price">2000</span><span class="quantity">шт.</span></li>
+                <li>Установка пластиковых плиточных уголков<span class="price">150</span><span class="quantity">пог.м.</span></li>
+                <li>Фигурный рез керамической плитки<span class="price">500</span><span class="quantity">пог.м.</span></li>
+                <li>Резка торца керамической плитки под 45 градусов<span class="price">350</span><span class="quantity">пог.м.</span></li>
+                <li>Сверление отверстий в керамической плитке (диаметр от 20 до 70 мм)<span class="price">100</span><span class="quantity">шт.</span></li>
+                <li>Сверление отверстий в керамической плитке (диаметр от 70 до 120 мм)<span class="price">150</span><span class="quantity">шт.</span></li>
+                <li>Сверление отверстий в керамической плитке (диаметр более 120 мм)<span class="price">200</span><span class="quantity">шт.</span></li>
+                <li>Затирка швов керамической плитки (гипсовая или цементная затирка)<span class="price">90кв.м.</span><span class="quantity">кв.м.</span></li>
+                <li>Затирка швов керамической плитки (двухкомпонентная затирка)<span class="price">180</span><span class="quantity">кв.м.</span></li>
+                <li>Затирка швов плитки-мозаики (гипсовая или цементная затирка)<span class="price">200</span><span class="quantity">кв.м.</span></li>
+                <li>Затирка швов плитки-мозаики (двухкомпонентная затирка)<span class="price">350</span><span class="quantity">кв.м.</span></li>
+                <li>Затирка швов декоративного камня (гипсовая или цементная затирка)<span class="price">200</span><span class="quantity">кв.м.</span></li>
+                <li>Обработка затирки швов плитки защитными составами<span class="price">350</span><span class="quantity">кв.м.</span></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button id="dLabel" class="dropdown_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>
+    Плотницкие работы
+    </button>
+            <ul class="dropdown-menu dropdown_btn__menu">
+                <li>Установка одинарной распашной двери комплексная (без учета доборов)<span class="price">3500</span><span class="quantity">шт.</span></li>
+                <li>Установка двойной распашной двери комплексная (без учета доборов)<span class="price">4500</span><span class="quantity">шт.</span></li>
+                <li>Установка одинарной раздвижной двери комплексная (без учета доборов)<span class="price">4500</span><span class="quantity">шт.</span></li>
+                <li>Установка двойной раздвижной двери комплексная (без учета доборов)<span class="price">5700</span><span class="quantity">шт.</span></li>
+                <li>Установка внутристенного пенала-кассеты раздвижной двери<span class="price">3500</span><span class="quantity">шт.</span></li>
+                <li>Установка полотна раздвижной двери в пенал<span class="price">2500</span><span class="quantity">шт.</span></li>
+                <li>Установка доборов дверей<span class="price">400</span><span class="quantity">пог.м.</span></li>
+                <li>Установка наличников на проем (при облицовке проема без двери)<span class="price">150</span><span class="quantity">пог.м.</span></li>
+                <li>Установка порожков дверей<span class="price">300</span><span class="quantity">шт.</span></li>
+                <li>Установка порожков-раскладок<span class="price">350</span><span class="quantity">пог.м.</span></li>
+                <li>Установка порожков-раскладок криволинейных<span class="price">500</span><span class="quantity">пог.м.</span></li>
+                <li>Монтаж корпусной арки и перегородки из гипсокартона над ней (ширина до 1 м)<span class="price">2500</span><span class="quantity">шт.</span></li>
+                <li>Монтаж корпусной арки и перегородки из гипсокартона над ней (ширина от 1 до 2 м)<span class="price">3000</span><span class="quantity">шт.</span></li>
+                <li>Монтаж арки из гипсокартона (ширина до 1 м)<span class="price">2000</span><span class="quantity">шт.</span></li>
+                <li>Монтаж короба стояков водоснабжения в санузле<span class="price">1500</span><span class="quantity">шт.</span></li>
+                <li>Монтаж короба инсталляции<span class="price">1500</span><span class="quantity">шт.</span></li>
+                <li>Монтаж коробов труб отопления<span class="price">1500</span><span class="quantity">шт.</span></li>
+                <li>Монтаж перегородки над дверью из гипсокартона<span class="price">1200</span><span class="quantity">шт.</span></li>
+                <li>Монтаж экрана под ванной из блоков<span class="price">1800</span><span class="quantity">шт.</span></li>
+                <li>Монтаж экрана под ванной приставного<span class="price">450</span><span class="quantity">шт.</span></li>
+                <li>Монтаж ревизионного люка<span class="price">1500</span><span class="quantity">шт.</span></li>
+                <li>Установка карнизов штор<span class="price">1000</span><span class="quantity">шт.</span></li>
+                <li>Установка подоконников<span class="price">600</span><span class="quantity">пог.м.</span></li>
+                <li>Монтаж обрешетки из направляющих или бруса для деревянной или пластиковой вагонки на пол, стены и потолок<span class="price">200</span><span class="quantity">кв.м.</span></li>
+                <li>Обшивка потолка вагонкой деревянной (без обрешетки)<span class="price">450</span><span class="quantity">кв.м.</span></li>
+                <li>Обшивка стен вагонкой деревянной (без обрешетки)<span class="price">450</span><span class="quantity">кв.м.</span></li>
+                <li>Обшивка пола вагонкой или половой доской (без обрешетки)<span class="price">450</span><span class="quantity">кв.м.</span></li>
+                <li>Обшивка потолка пластиковой вагонкой или панелями (без обрешетки)<span class="price">450</span><span class="quantity">кв.м.</span></li>
+                <li>Обшивка стен пластиковой вагонкой или панелями (без обрешетки)<span class="price">450</span><span class="quantity">кв.м.</span></li>
+                <li>Устройство откосов окон из деревянной вагонки<span class="price">500</span><span class="quantity">пог.м.</span></li>
+                <li>Устройство откосов окон из пластиковой вагонки или панелей<span class="price">500</span><span class="quantity">пог.м.</span></li>
+                <li>Устройство откосов окон пластиковых (ширина до 30 см)<span class="price">500</span><span class="quantity">пог.м.</span></li>
+                <li>Устройство откосов окон пластиковых (ширина от 30 до 50 см)<span class="price">600</span><span class="quantity">пог.м.</span></li>
+                <li>Монтаж вентиляционной решетки<span class="price">350</span><span class="quantity">шт.</span></li>
+                <li>Монтаж воздуховода пластикового или вентиляционной гофры<span class="price">300</span><span class="quantity">пог.м.</span></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button id="dLabel" class="dropdown_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>
+    Сантехнические работы
+    </button>
+            <ul class="dropdown-menu dropdown_btn__menu">
+                <li>Штробление стен под сантехнические трубы (ширина до 50мм)<span class="price">450</span><span class="quantity">пог.м.</span></li>
+                <li>Сверление сквозных отверстий под сантехнические трубы в стене<span class="price">200</span><span class="quantity">шт.</span></li>
+                <li>Заделка штроб сантехнических труб<span class="price">50</span><span class="quantity">пог.м.</span></li>
+                <li title="без переварки стояков водоснабжения и переборки стояка канализации">Разводка труб горячего и холодного водоснабжения сварным полипропиленом и канализации ПВХ в санузле<span class="price">2400</span><span class="quantity">точка</span></li>
+                <li title="без переварки стояков водоснабжения и переборки стояка канализации">Разводка труб горячего и холодного водоснабжения сшитым полиэтиленом и канализации ПВХ в санузле<span class="price">2700</span><span class="quantity">точка</span></li>
+                <li title="без переварки стояков водоснабжения и переборки стояка канализации">Разводка труб горячего и холодного водоснабжения медью и канализации ПВХ в санузле<span class="price">3000</span><span class="quantity">точка</span></li>
+                <li>Прокладка труб водоснабжения находящихся вне санузла от ввода в квартиру до коллекторов<span class="price">200</span><span class="quantity">пог.м.</span></li>
+                <li>Теплоизоляция труб водоснабжения и канализации<span class="price"></span><span class="quantity">пог.м.</span></li>
+                <li>900<span class="price"></span><span class="quantity">шт.</span></li>
+                <li>Установка и подключение коллектора горячей или холодной воды (гребенка)<span class="price">900</span><span class="quantity">шт.</span></li>
+                <li>Установка и подключение коллектора отопления<span class="price">900</span><span class="quantity">шт.</span></li>
+                <li>Установка регулятора давления воды (редуктор)<span class="price">450</span><span class="quantity">шт.</span></li>
+                <li>Установка простого фильтра грубой очистки<span class="price">450</span><span class="quantity">шт.</span></li>
+                <li>Установка самопрочистного фильтра с выводом в канализацию<span class="price">900</span><span class="quantity">шт.</span></li>
+                <li>Установка счетчика воды<span class="price">600</span><span class="quantity">шт.</span></li>
+                <li>Устройство системы антипротечки воды<span class="price">3000</span><span class="quantity">шт.</span></li>
+                <li>Установка раковины<span class="price">900</span><span class="quantity">шт.</span></li>
+                <li>Монтаж тумбы «мойдодыр» под раковину<span class="price">1100</span><span class="quantity">шт.</span></li>
+                <li>Установка зеркала над раковиной<span class="price">900</span><span class="quantity">шт.</span></li>
+                <li>Установка ванны<span class="price">1500</span><span class="quantity">шт.</span></li>
+                <li>Установка ванны гидромассажной<span class="price">2500</span><span class="quantity">шт.</span></li>
+                <li>Установка душевой кабины<span class="price">3600</span><span class="quantity">шт.</span></li>
+                <li>Установка душевого поддона<span class="price">2000</span><span class="quantity">шт.</span></li>
+                <li>Устройство душевого поддона из блоков под облицовку плиткой<span class="price">2500</span><span class="quantity">шт.</span></li>
+                <li>Установка стеклянных дверок душевого поддона или ванной<span class="price">2500</span><span class="quantity">шт.</span></li>
+                <li>Монтаж сливного трапа<span class="price">1300</span><span class="quantity">шт.</span></li>
+                <li>Установка унитаза<span class="price">900</span><span class="quantity">шт.</span></li>
+                <li>Установка биде<span class="price">900</span><span class="quantity">шт.</span></li>
+                <li>Установка инсталляции подвесного унитаза (без установки унитаза)<span class="price">1300</span><span class="quantity">шт.</span></li>
+                <li>Установка полотенцесушителя (на готовые выводы стояка горячей воды)<span class="price">900</span><span class="quantity">шт.</span></li>
+                <li>Установка и подключение стиральной машины<span class="price">900</span><span class="quantity">шт.</span></li>
+                <li>Установка бойлера до 100 литров<span class="price">1500</span><span class="quantity">шт.</span></li>
+                <li>Установка газовой колонки<span class="price">2500</span><span class="quantity">шт.</span></li>
+                <li>Установка проточного водонагревателя<span class="price">1300</span><span class="quantity">шт.</span></li>
+                <li>Установка канализационного насоса<span class="price">1500</span><span class="quantity">шт.</span></li>
+                <li>Установка и подключение смесителя<span class="price">400</span><span class="quantity">шт.</span></li>
+                <li>Установка и подключение душевой штанги<span class="price">400</span><span class="quantity">шт.</span></li>
+                <li>Установка и подключение гигиенического душа<span class="price">500</span><span class="quantity">шт.</span></li>
+                <li>Устройство внутренней части встроенного смесителя (без штробления ниши)<span class="price">1000</span><span class="quantity">шт.</span></li>
+                <li>Установка радиатора отопления, с подводкой труб и установкой запорной арматуры (на сварке)<span class="price">6000</span><span class="quantity">шт.</span></li>
+                <li>Установка вертикального радиатора отопления, с подводкой труб и установкой запорной арматуры (на сварке)<span class="price">9000</span><span class="quantity">шт.</span></li>
+                <li>Установка радиатора отопления, с установкой запорной арматуры (сшитый полиэтилен)<span class="price">5000</span><span class="quantity">шт.</span></li>
+                <li>Установка напольного радиатора отопления без вентиляторов, с установкой запорной арматуры (сшитый полиэтилен)<span class="price">6000</span><span class="quantity">шт.</span></li>
+                <li>Установка напольного радиатора отопления с вентиляторами, с установкой запорной арматуры (сшитый полиэтилен)<span class="price">7000</span><span class="quantity">шт.</span></li>
+                <li>Прокладка труб отопления из сшитого полиэтилена<span class="price">150</span><span class="quantity">пог.м.</span></li>
+                <li>Запрямление стояка отопления (на сварке)<span class="price">5000</span><span class="quantity">шт.</span></li>
+                <li>Переборка стояка холодной воды с установкой шарового крана (на сварке)<span class="price">9000</span><span class="quantity">шт.</span></li>
+                <li>Устройство байпаса стояка горячей воды под полотенцесушитель с установкой кранов (на сварке)<span class="price">9000</span><span class="quantity">шт.</span></li>
+                <li title="Плюс к основному тарифу">Перенос стояка водоснабжения или отопления при замене радиатора или переборке стояка<span class="price">3000</span><span class="quantity">шт.</span></li>
+                <li>Устройство отвода на стояк водоснабжения с установкой шарового крана (на сварке)<span class="price">3500</span><span class="quantity">шт.</span></li>
+                <li>Переборка канализационного ПВХ стояка (смещение ниже вывода унитаза)<span class="price">2500</span><span class="quantity">шт.</span></li>
+                <li>Монтаж коллекторного шкафа отопления<span class="price">2000</span><span class="quantity">шт.</span></li>
+                <li>Штробление ниши под коллекторный шкаф отопления (кирпич, пеноблок)<span class="price">3000</span><span class="quantity">шт.</span></li>
+                <li>Монтаж водяных теплых полов (при автономной системе отопления)<span class="price">600</span><span class="quantity">кв.м.</span></li>
+                <li>Установка аксессуаров сантехнических<span class="price">300</span><span class="quantity">шт.</span></li>
+                </ul>
+        </div>
+        
+        <div class="dropdown">
+            <button id="dLabel" class="dropdown_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>
+    Электромонтажные работы
+    </button>
+      <ul class="dropdown-menu dropdown_btn__menu">
+          <li>Монтаж выключателя, силовой или слаботочной розетки<span class="price">150</span><span class="quantity">шт.</span></li>
+          <li>Монтаж и сборка распаечной коробки<span class="price">450</span><span class="quantity">шт.</span></li>
+          <li>Монтаж и сборка <span title="коробка уравнивания потенциалов">КУП</span><span class="price">450</span><span class="quantity">шт.</span></li>
+          <li>Штробление и установка подрозетника<span class="price">300</span><span class="quantity">шт.</span></li>
+          <li>Монтаж подрозетника в гипсокартон<span class="price">150</span><span class="quantity">шт.</span></li>
+          <li>Монтаж встроенного точечного светильника<span class="price">300</span><span class="quantity">шт.</span></li>
+          <li>Монтаж накладного светильника<span class="price">300</span><span class="quantity">шт.</span></li>
+          <li>Монтаж настенной бра<span class="price">300</span><span class="quantity">шт.</span></li>
+          <li>Монтаж светодиодной ленты подкарнизного освещения<span class="price">250</span><span class="quantity">пог.м.</span></li>
+          <li>Монтаж люминесцентного светильника подкарнизного освещения<span class="price">400</span><span class="quantity">шт.</span></li>
+          <li>Монтаж люстры (без сборки)<span class="price">700</span><span class="quantity">шт.</span></li>
+          <li>Монтаж трансформатора на 12 вольт<span class="price">450</span><span class="quantity">шт.</span></li>
+          <li>Монтаж звонка<span class="price">450</span><span class="quantity">шт.</span></li>
+          <li>Монтаж телевизионного «краба»<span class="price">450</span><span class="quantity">шт.</span></li>
+          <li>Штробление стен или потолка под проводку (под один провод, ширина до 2 см)<span class="price">200</span><span class="quantity">пог.м.</span></li>
+          <li>Штробление стен под проводку для подводки группы проводов к электробоксу (ширина от 10 до 40 см)<span class="price">1000</span><span class="quantity">пог.м.</span></li>
+          <li>Заделка штроб электрики<span class="price">30</span><span class="quantity">пог.м.</span></li>
+          <li>Сверление сквозных отверстий под электрическую проводку в стене<span class="price">150</span><span class="quantity">шт.</span></li>
+          <li>Прокладка силового или слаботочного провода<span class="price">50</span><span class="quantity">пог.м.</span></li>
+          <li>Прокладка силового или слаботочного провода в гофре<span class="price">60</span><span class="quantity">пог.м.</span></li>
+          <li>Штробление ниши электробокса до 8 групп<span class="price">1000</span><span class="quantity">шт.</span></li>
+          <li>Штробление ниши электробокса на 12 групп<span class="price">1400</span><span class="quantity">шт.</span></li>
+          <li>Штробление ниши электробокса на 18 групп<span class="price">1800</span><span class="quantity">шт.</span></li>
+          <li>Штробление ниши электробокса на 24 группы<span class="price">2200</span><span class="quantity">шт.</span></li>
+          <li>Штробление ниши электробокса на 36 групп<span class="price">2800</span><span class="quantity">шт.</span></li>
+          <li>Штробление ниши электробокса на 48 групп<span class="price">3200</span><span class="quantity">шт.</span></li>
+          <li>Монтаж электробокса на 8 групп (без коммутации)<span class="price">600</span><span class="quantity">шт.</span></li>
+          <li>Монтаж электробокса на 12 групп (без коммутации)<span class="price">700</span><span class="quantity">шт.</span></li>
+          <li>Монтаж электробокса на 18 групп (без коммутации)<span class="price">800</span><span class="quantity">шт.</span></li>
+          <li>Монтаж электробокса на 24 группы (без коммутации)<span class="price">900</span><span class="quantity">шт.</span></li>
+          <li>Монтаж электробокса на 36 групп (без коммутации)<span class="price">1000</span><span class="quantity">шт.</span></li>
+          <li>Монтаж электробокса на 48 групп (без коммутации)<span class="price">1200</span><span class="quantity">шт.</span></li>
+          <li>Установка и подключение автомата однофазного<span class="price">350</span><span class="quantity">шт.</span></li>
+          <li>Установка и подключение автомата двух-четырех фазного<span class="price">500</span><span class="quantity">шт.</span></li>
+          <li>Установка и подключение УЗО<span class="price">500</span><span class="quantity">шт.</span></li>
+          <li>Установка и подключение дифференциального автомата<span class="price">500</span><span class="quantity">шт.</span></li>
+          <li>Установка вентилятора<span class="price">1000</span><span class="quantity">шт.</span></li>
+          <li>Установка электрического полотенцесушителя<span class="price">900</span><span class="quantity">шт.</span></li>
+          <li>Установка электрического радиатора<span class="price">1200</span><span class="quantity">шт.</span></li>
+          <li>Устройство электрических теплых полов<span class="price">450</span><span class="quantity">кв.м.</span></li>
+          <li>Монтаж электрического пластикового короба<span class="price">200</span><span class="quantity">пог.м.</span></li>
+          <li>Установка и подключение домофона<span class="price">600</span><span class="quantity">шт.</span></li>
+          <li>Монтаж камеры-звонка видеодомофона<span class="price">900</span><span class="quantity">шт.</span></li>
+          <li>Установка и подключение панели видеодомофона<span class="price">900</span><span class="quantity">шт.</span></li>
+      </ul>
+       </div>
+       
+       <div class="dropdown">
+            <button id="dLabel" class="dropdown_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>
+    Другое
+    </button>
+      <ul class="dropdown-menu dropdown_btn__menu">
+          <li>Уборка мусора и загрузка контейнера (без стоимости контейнера, с лифтом)<span class="price">3300</span><span class="quantity">конт.</span></li>
+          <li>Текущий вынос мусора<span class="price">30</span><span class="quantity">мешок</span></li>
+          <li>Штробление стен под установку магистралей кондиционера (бетон)<span class="price">1500</span><span class="quantity">пог.м.</span></li>
+          <li>Штробление стен под установку магистралей кондиционера (кирпич, пеноблок)<span class="price">1200</span><span class="quantity">пог.м.</span></li>
+          <li>Штробление отверстия под вентиляцию (бетон)<span class="price">750</span><span class="quantity">шт.</span></li>
+          <li>Штробление отверстия под вентиляцию (кирпич, пеноблок)<span class="price">450</span><span class="quantity">шт.</span></li>
+          <li>Расширение отверстия под вентиляцию (бетон)<span class="price">450</span><span class="quantity">шт.</span></li>
+          <li>Расширение отверстия под вентиляцию (кирпич, пеноблок)<span class="price">350</span><span class="quantity">шт.</span></li>
+      </ul>
+       </div>
+       
+    <a href="index.html" class="back"><button class="back__btn"><i class="fa fa-chevron-left fa-md"></i>&emsp;Назад</button></a>
+        
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

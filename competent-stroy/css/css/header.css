@@ -1,0 +1,49 @@
+header {
+  height: 140px; }
+
+.wrapper {
+  margin-top: 20px;
+  padding: 0 10%; }
+
+.info {
+  float: right;
+  text-align: center; }
+
+.logo {
+  width: 250px; }
+
+.info__phone {
+  font-family: "Ubuntu", sans-serif;
+  color: #052643;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 21px; }
+
+.info__time {
+  font-size: 15px; }
+
+.info__recall {
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  border-radius: 22px;
+  background-color: #a6530a;
+  color: white;
+  outline: none; }
+  .info__recall:hover {
+    transition-duration: 0.5s;
+    background-color: red; }
+
+.info__modal-item {
+  font-weight: 500;
+  width: 350px;
+  margin: 5px;
+  padding: 10px; }
+
+.info__modal-item_text {
+  height: 150px; }
+
+.modal-content {
+  text-align: center; }
+
+/*# sourceMappingURL=header.css.map */

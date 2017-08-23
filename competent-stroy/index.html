@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КОМПЕТЕНТ СТРОЙ</title>
+    <link rel="shortcut icon" href="img/logaster_No_1_small_size_185x73_pixels_(PNG)/icon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!--  шрифт-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="modules/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <img src="img/logaster_No_1_small_size_185x73_pixels_(PNG)/1_Primary_logo_on_transparent_185x73.png" class="logo" alt="logotype">
+            <div class="info">
+                <p class="info__phone">+7 (929) 930-76-74 <br><span class="info__time">c 9:00 до 23:00 ежедневно</span></p>
+
+
+                <!-- Триггер кнопка модали-->
+                <button type="button" class="info__recall" data-toggle="modal" data-target="#myModal">
+  <i class="fa fa-phone"></i>&emsp; Обратный звонок
+</button>
+
+                <!-- Модаль -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Заказать обратный звонок</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="">
+                                    <input type="text" name="name" class="info__modal-item" placeholder="введите ваше имя" required><br>
+                                    <input type="tel" name="tel" class="info__modal-item" placeholder="введите номер телефона" required><br>
+                                    <textarea class="info__modal-item info__modal-item_text" name="comments" placeholder="комментарии"></textarea><br>
+                                    <input type="submit" class="info__modal-item_btn btn btn-primary btn-lg" value="отправить">
+
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-default navbar-fixed-top" id="top_nav">
+        <div class="container-fluid">
+            <!-- Brand и toggle сгруппированы для лучшего отображения на мобильных дисплеях -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            </div>
+
+            <!-- Соберите навигационные ссылки, формы, и другой контент для переключения -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#aboutus">О НАС <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#rates">ЦЕНЫ <span class="sr-only">(current)</span></a></li>
+                    <li><a href="">КАЛЬКУЛЯТОР <span class="sr-only">(current)</span></a></li>
+                    <li><a href="">ФОТО РАБОТ <span class="sr-only">(current)</span></a></li>
+                    <li><a href="">ОТЗЫВЫ <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#stages">ЭТАПЫ <span class="sr-only">(current)</span></a></li>
+                    <li><a href="">ВОПРОСЫ <span class="sr-only">(current)</span></a></li>
+                    <li><a href="">КОНТАКТЫ <span class="sr-only">(current)</span></a></li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!--main-->
+
+    <div class="main">
+        <h1>Ремонт квартир</h1>
+        <p class="main__h1addition">в Москве и Подмосковье</p>
+        <p class="main__slogan">Построй будущее вместе с нами</p>
+        <!-- Триггер кнопка модали-->
+        <button type="button" class="main__call_button" data-toggle="modal" data-target="#myModal_2"><i class="fa fa-share"></i>&emsp;БЕСПЛАТНЫЙ ВЫЗОВ ЗАМЕРЩИКА
+                </button>
+
+        <!-- Модаль -->
+        <div class="modal fade" id="myModal_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel_2">Вызвать замерщика</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <input type="text" name="name" class="info__modal-item" placeholder="введите ваше имя" required><br>
+                            <input type="tel" name="tel" class="info__modal-item" placeholder="введите номер телефона" required><br>
+                            <input type="text" name="date" class="info__modal-item" placeholder="дата и время встречи"><br>
+                            <input type="text" name="adress" class="info__modal-item" placeholder="адрес встречи" required><br>
+                            <textarea class="info__modal-item info__modal-item_text" name="comments" rows="20" placeholder="комментарии"></textarea><br>
+                            <input type="submit" class="info__modal-item_btn btn btn-primary btn-lg" value="отправить">
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--About us-->
+
+    <div class="aboutus" id="aboutus">
+        <div class="wrapper">
+            <h2 class="aboutus__capture">
+                О НАШЕЙ КОМПАНИИ
+            </h2>
+            <p class="aboutus__description">Коллектив нашей компании сложился в 2002 году. С тех пор мы накопили достаточно большой опыт в сфере комплексного ремонта квартир и других помещений. Наша организация, состоящая из мастеров-отделочников и инженеров, поможет ВАМ по всем вопросам связанным с ремонтом.</p>
+        </div>
+        <div class="wrapper aboutus__wrapper">
+            <figure>
+                <div class="aboutus__foto aboutus__foto-1"></div>
+                <figcaption>
+                    <b>Опыт ремонта квартир с 2002г. Все мастера - профессионалы своего дела</b>
+                </figcaption>
+            </figure>
+            <figure>
+                <div class="aboutus__foto aboutus__foto-2"></div>
+                <figcaption>
+                    <b>За все годы работы с нами сдано более 500 объектов</b>
+                </figcaption>
+            </figure>
+            <figure>
+                <div class="aboutus__foto aboutus__foto-3"></div>
+                <figcaption>
+                    <b>Каждый третий клиент приходит по рекомендации предыдущих заказчиков</b>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <!--    Rates-->
+
+    <div class="rates" id="rates">
+        <div class="container">
+            <h2 class="rates__capture">ТАРИФЫ</h2>
+
+            <div>
+
+                <!-- Навигационные вкладки -->
+                <ul class="nav nav-tabs rates__tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#cosmetic" aria-controls="home" role="tab" data-toggle="tab">Косметический</a></li>
+                    <li role="presentation"><a href="#overhaul" aria-controls="profile" role="tab" data-toggle="tab">Капитальный</a></li>
+                    <li role="presentation"><a href="#lux" aria-controls="messages" role="tab" data-toggle="tab">Люкс</a></li>
+                    <li role="presentation"><a href="#clever" aria-controls="settings" role="tab" data-toggle="tab">Умный</a></li>
+                    <li role="presentation"><a href="#design" aria-controls="settings" role="tab" data-toggle="tab">Дизайнерский</a></li>
+                </ul>
+
+                <!-- Вкладки панелей -->
+                <div class="tab-content rates__content">
+
+                    <!--   Косметический ремонт-->
+
+                    <div role="tabpanel" class="tab-pane active" id="cosmetic">
+                        <div class="rates__gifts">
+                            <img src="img/cosmetic.jpg" alt="foto" width="300px" height="200px" class="rates__gifts-foto">
+                            <div>
+                                <img src="img/vacuum.png" alt="vacuum_cleaner" class="rates__gifts-icon">
+                                <p class="rates__gifts-item">Вынос мусора и <br>влажная уборка БЕСПЛАТНО</p>
+                            </div>
+                            <h3 class="rates__gifts-capture"><b>При заказе от 150 000 р.</b></h3>
+                            <div>
+                                <img src="img/giftbox.png" alt="giftbox" class="rates__gifts-icon">
+                                <p class="rates__gifts-item">Скидка 10% или <br>Дизайн-проект в подарок</p>
+                            </div>
+                        </div>
+                        <div class="rates__works">
+                            <div class="rates__works__box1">
+                                <h2 class="rates__works-capture">Работы входят в ремонт</h2>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Стены</h3>
+                                <ul>
+                                    <li>- Демонтаж старой отделки</li>
+                                    <li>- Шпаклевка стен</li>
+                                    <li>- Поклейка обоев</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Пол</h3>
+                                <ul>
+                                    <li>- Настил линолеума, ламината</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Ванная</h3>
+                                <ul>
+                                    <li>- Укладка плитки на пол</li>
+                                    <li>- Облицовка стен панелями</li>
+                                    <li>- Замена сантехники</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Потолок</h3>
+                                <ul>
+                                    <li>- Монтаж натяжного потолка в комнатах, реечного в санузле</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Электрика</h3>
+                                <ul>
+                                    <li>- Замена розеток, выключателей и светильников</li>
+                                </ul>
+                            </div>
+                            <div class="rates__works__box2">
+                                <div class="rates__works-old_price">Старая цена: <span>3 245 руб./м <sup>2</sup></span></div>
+                                <div class="rates__works-new_price">2 950 руб./м<sup>2</sup></div>
+                            </div>
+                        </div>
+                        <div class="rates__materials">
+                            <h3 class="rates__materials-capture">Чистовые материалы</h3>
+                            <img src="img/wallpaper.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/linoleum.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/tiles.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/tile.png" alt="icon" class="rates__materials-icon">
+                            <ul class="rates__materials-list">
+                                <li>- Обои</li>
+                                <li>- Линолеум</li>
+                                <li>- Напольная плитка</li>
+                                <li>- Пластиковые панели</li>
+                            </ul>
+                            <hr>
+                            <h3 class="rates__materials-capture">Черновые материалы</h3>
+                            <img src="img/bucket.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/stationery-stack.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/ceiling.png" alt="icon" class="rates__materials-icon">
+                            <ul class="rates__materials-list">
+                                <li>- Смеси, грунтовки</li>
+                                <li>- Гипсокартон, профили</li>
+                                <li>- Реечный и натяжной потолок</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--   Капитальный ремонт-->
+                    <div role="tabpanel" class="tab-pane" id="overhaul">
+                        <div class="rates__gifts">
+                            <img src="img/top-kapital.jpg" alt="foto" width="300px" height="200px" class="rates__gifts-foto">
+                            <div>
+                                <img src="img/vacuum.png" alt="vacuum_cleaner" class="rates__gifts-icon">
+                                <p class="rates__gifts-item">Вынос мусора и <br>влажная уборка БЕСПЛАТНО</p>
+                            </div>
+                            <h3 class="rates__gifts-capture"><b>При заказе от 150 000 р.</b></h3>
+                            <div>
+                                <img src="img/giftbox.png" alt="giftbox" class="rates__gifts-icon">
+                                <p class="rates__gifts-item">Скидка 10% или <br>Дизайн-проект в подарок</p>
+                            </div>
+                        </div>
+                        <div class="rates__works">
+                            <div class="rates__works__box1">
+                                <h2 class="rates__works-capture">Работы входят в ремонт</h2>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Стены</h3>
+                                <ul>
+                                    <li>- Демонтаж старой отделки</li>
+                                    <li>- Штукатурка и шпатлевка стен</li>
+                                    <li>- Установка дверей</li>
+                                    <li>- Поклейка обоев, покраска стен.</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Пол</h3>
+                                <ul>
+                                    <li>- Стяжка пола</li>
+                                    <li>- Настил ламината</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Ванная</h3>
+                                <ul>
+                                    <li>- Укладка плитки на пол, облицовка стен</li>
+                                    <li>- Замена сантехники, разводка труб, сборка сантехшкафа</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Потолок</h3>
+                                <ul>
+                                    <li>- Монтаж натяжного потолка в комнатах, реечного в санузле</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Электрика</h3>
+                                <ul>
+                                    <li>- Замена розеток, выключателей, светильников, проводки</li>
+                                    <li>- Установка электрощита и автоматов</li>
+                                </ul>
+                            </div>
+                            <div class="rates__works__box2">
+                                <div class="rates__works-old_price">Старая цена: <span>5 500 руб./м <sup>2</sup></span></div>
+                                <div class="rates__works-new_price">4 950 руб./м<sup>2</sup></div>
+                            </div>
+
+                        </div>
+                        <div class="rates__materials">
+                            <h3 class="rates__materials-capture">Чистовые материалы</h3>
+                            <img src="img/wallpaper.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/laminat.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/tiles.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/door.png" alt="icon" class="rates__materials-icon">
+                            <ul class="rates__materials-list">
+                                <li>- Обои</li>
+                                <li>- Ламинат</li>
+                                <li>- Напольная плитка</li>
+                                <li>- Межкомнатные двери</li>
+                            </ul>
+                            <hr>
+                            <h3 class="rates__materials-capture">Черновые материалы</h3>
+                            <img src="img/bucket.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/stationery-stack.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/ceiling.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/wire.png" alt="icon" class="rates__materials-icon">
+                            <ul class="rates__materials-list">
+                                <li>- Смеси, грунтовки</li>
+                                <li>- Гипсокартон, профили</li>
+                                <li>- Реечный и натяжной потолок</li>
+                                <li>- Медная проводка</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--    Люкс ремонт-->
+                    <div role="tabpanel" class="tab-pane" id="lux">
+
+                        <div class="rates__gifts">
+                            <img src="img/image.jpg" alt="foto" width="300px" height="200px" class="rates__gifts-foto">
+                            <div>
+                                <img src="img/vacuum.png" alt="vacuum_cleaner" class="rates__gifts-icon">
+                                <p class="rates__gifts-item">Вынос мусора и <br>влажная уборка БЕСПЛАТНО</p>
+                            </div>
+                            <h3 class="rates__gifts-capture"><b>При заказе от 150 000 р.</b></h3>
+                            <div>
+                                <img src="img/giftbox.png" alt="giftbox" class="rates__gifts-icon">
+                                <p class="rates__gifts-item">Скидка 10% или <br>Дизайн-проект в подарок</p>
+                            </div>
+                        </div>
+                        <div class="rates__works">
+                            <div class="rates__works__box1">
+                                <h2 class="rates__works-capture">Работы входят в ремонт</h2>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Стены</h3>
+                                <ul>
+                                    <li>- Демонтаж старой отделки</li>
+                                    <li>- Штукатурка и шпатлевка стен</li>
+                                    <li>- Установка дверей</li>
+                                    <li>- Поклейка обоев, покраска стен.</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Пол</h3>
+                                <ul>
+                                    <li>- Наливной пол</li>
+                                    <li>- Настил паркетной доски</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Ванная</h3>
+                                <ul>
+                                    <li>- Укладка плитки на пол, облицовка стен</li>
+                                    <li>- Замена сантехники, разводка труб, сборка сантехшкафа</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Потолок</h3>
+                                <ul>
+                                    <li>- Монтаж натяжного/гипсового потолка в комнатах, реечного в санузле</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Электрика</h3>
+                                <ul>
+                                    <li>- Замена розеток, выключателей, светильников, проводки</li>
+                                    <li>- Установка электрощита и автоматов</li>
+                                </ul>
+                            </div>
+                            <div class="rates__works__box2">
+                                <div class="rates__works-old_price">Старая цена: <span>6 500 руб./м <sup>2</sup></span></div>
+                                <div class="rates__works-new_price">5 950 руб./м<sup>2</sup></div>
+                            </div>
+                        </div>
+                        <div class="rates__materials">
+                            <h3 class="rates__materials-capture">Чистовые материалы</h3>
+                            <img src="img/wallpaper.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/parquet.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/tiles.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/door.png" alt="icon" class="rates__materials-icon">
+                            <ul class="rates__materials-list">
+                                <li>- Обои</li>
+                                <li>- Паркетная доска</li>
+                                <li>- Напольная плитка</li>
+                                <li>- Межкомнатные двери</li>
+                            </ul>
+                            <hr>
+                            <h3 class="rates__materials-capture">Черновые материалы</h3>
+                            <img src="img/bucket.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/stationery-stack.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/ceiling.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/wire.png" alt="icon" class="rates__materials-icon">
+                            <ul class="rates__materials-list">
+                                <li>- Смеси, грунтовки</li>
+                                <li>- Гипсокартон, профили</li>
+                                <li>- Реечный и натяжной потолок</li>
+                                <li>- Медная проводка</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!--    Умный ремонт-->
+                    <div role="tabpanel" class="tab-pane" id="clever">
+                        <div class="rates__clever">
+                            <h2 class="rates__clever-descrp">Совмещаемый с любым видом ремонта</h2>
+                            <div class="rates__clever__item">
+                                <div class="rates__cleverlogo cleverlogo__item">
+                                    <img src="img/buspro.png" alt="hdl" class="rates__cleverlogo-1">
+                                    <img src="img/c-bus.png" alt="clipsal" class="rates__cleverlogo-2">
+                                </div>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZOYHDxtVlKo" frameborder="0" allowfullscreen></iframe>
+                                <div class="rates__cleverlogo cleverlogo__item">
+
+                                    <img src="img/knx.png" alt="knx" class="rates__cleverlogo-3">
+                                    <img src="img/abb.jpg" alt="abb" class="rates__cleverlogo-4">
+                                </div>
+                            </div>
+                            <p class="rates__clever-price"> от + 1400 руб./м <sup>2</sup> к основному тарифу</p>
+                        </div>
+                    </div>
+
+                    <!--    Дизайнерский ремонт-->
+                    <div role="tabpanel" class="tab-pane" id="design">
+                        <div class="rates__gifts">
+                            <img src="img/design_remont.jpg" alt="foto" width="300px" height="200px" class="rates__gifts-foto">
+                            <div>
+                                <img src="img/vacuum.png" alt="vacuum_cleaner" class="rates__gifts-icon">
+                                <p class="rates__gifts-item">Вынос мусора и <br>влажная уборка БЕСПЛАТНО</p>
+                            </div>
+                            <h3 class="rates__gifts-capture"><b>При заказе от 150 000 р.</b></h3>
+                            <div>
+                                <img src="img/giftbox.png" alt="giftbox" class="rates__gifts-icon">
+                                <p class="rates__gifts-item">Скидка 10% или <br>Дизайн-проект в подарок</p>
+                            </div>
+                        </div>
+                        <div class="rates__works">
+                            <div class="rates__works__box1">
+                                <h2 class="rates__works-capture">Работы входят в ремонт</h2>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Стены</h3>
+                                <ul>
+                                    <li>- Демонтаж старой отделки</li>
+                                    <li>- Монтаж перегородок и конструкций</li>
+                                    <li>- Штукатурка и шпатлевка стен</li>
+                                    <li>- Установка дверей</li>
+                                    <li>- Поклейка обоев, декоративная штукатурка</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Пол</h3>
+                                <ul>
+                                    <li>- Наливной пол</li>
+                                    <li>- Настил паркетной доски/паркета</li>
+                                    <li>- Монтаж системы "Тёплый пол"</li>
+
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Ванная</h3>
+                                <ul>
+                                    <li>- Укладка плитки на пол, облицовка стен</li>
+                                    <li>- Замена сантехники, разводка труб, сборка сантехшкафа</li>
+                                    <li>- Установка подвесной сантехники, джакузи</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Потолок</h3>
+                                <ul>
+                                    <li>- Монтаж многоуровнего натяжного/гипсового потолка</li>
+                                </ul>
+                                <h3 class="rates__works-ul_capture"><i class="fa fa-check" aria-hidden="true"></i>&emsp;Электрика</h3>
+                                <ul>
+                                    <li>- Замена розеток, выключателей, светильников, проводки</li>
+                                    <li>- Установка электрощита и автоматов</li>
+                                </ul>
+                            </div>
+                            <div class="rates__works__box2">
+                                <div class="rates__works-old_price">Старая цена: <span>9 800 руб./м <sup>2</sup></span></div>
+                                <div class="rates__works-new_price">8 950 руб./м<sup>2</sup></div>
+                            </div>
+                        </div>
+                        <div class="rates__materials">
+                            <h3 class="rates__materials-capture">Чистовые материалы</h3>
+                            <img src="img/wallpaper.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/parquet.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/tiles.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/door.png" alt="icon" class="rates__materials-icon">
+                            <ul class="rates__materials-list">
+                                <li>- Обои</li>
+                                <li>- Паркетная доска/паркет</li>
+                                <li>- Напольная плитка</li>
+                                <li>- Межкомнатные двери</li>
+                            </ul>
+                            <hr>
+                            <h3 class="rates__materials-capture">Черновые материалы</h3>
+                            <img src="img/bucket.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/stationery-stack.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/ceiling.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/wire.png" alt="icon" class="rates__materials-icon">
+                            <img src="img/temperature.png" alt="icon" class="rates__materials-icon">
+                            <ul class="rates__materials-list">
+                                <li>- Смеси, грунтовки</li>
+                                <li>- Гипсокартон, профили</li>
+                                <li>- Реечный и натяжной потолок</li>
+                                <li>- Медная проводка</li>
+                                <li>- Теплозвукоизоляционные материалы</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Триггер кнопка модали-->
+        <button type="button" class="rates__call-btn info__recall" data-toggle="modal" data-target="#myModal_3">Рассчитать ремонт
+                </button>
+
+        <!-- Модаль -->
+        <div class="modal fade" id="myModal_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_3">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel_3">Перезвоним в течение 5-ти минут, бесплатно проконсультируем!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <input type="text" name="name" class="info__modal-item" placeholder="введите ваше имя" required><br>
+                            <input type="tel" name="tel" class="info__modal-item" placeholder="введите номер телефона" required><br>
+                            <input type="submit" class="info__modal-item_btn btn btn-primary btn-lg" value="отправить">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="price_list.html" class="rates-price_list"><i class="fa fa-calculator" aria-hidden="true"></i>&emsp; Прайс - Лист</a>
+    </div>
+
+<!--Калькулятор-->
+ <div class="calc">
+     <h2 class="calc-capture">Калькулятор ремонта</h2>
+  <div class="calc__item">
+      <hr>
+      <label for="area"> Площадь квартиры</label>
+      <input type="number" id="area"> м<sup>2</sup>
+      <hr>
+      <input type="checkbox" id="novostroy">
+      <label for="novostroy">Новостройка</label>
+      <h3>Потолки:</h3>
+      <input type="radio" name="ceiling" id="ceiling1" value="pokraska">&emsp;<label for="ceiling1">Покраска</label><br>
+      <input type="radio" name="ceiling" id="ceiling2" value="gips">&emsp;<label for="ceiling2">Гипсокартон</label><br>
+      <input type="radio" name="ceiling" id="ceiling3" value="natyaznoy">&emsp;<label for="ceiling3">Натяжной</label><br>
+      <h3>Стены:</h3>
+      <input type="radio" name="wall" id="wall1">&emsp;
+      <label for="wall1">Обои</label><br>
+      <input type="radio" name="wall" id="wall2">&emsp;
+      <label for="wall2">Покраска</label><br>
+      <input type="radio" name="wall" id="wall3">&emsp;
+      <label for="wall3">Выравнивание по маякам</label><br>
+      
+      <h3>Полы:</h3>
+      <select name="" id="">
+          <option value="floor1">Ламинат/Паркетная доска</option>
+          <option value="floor2">Линолеум/Ковролин</option>
+          <option value="floor3">Массив</option>
+          <option value="floor4">Паркет</option>  
+      </select>
+      <input type="radio" name="floor" id="floor1">&emsp;
+      <label for="floor1">Ламинат/Паркетная доска</label><br>
+      
+      <input type="radio" name="floor" id="floor2">&emsp;
+      <label for="floor2">Линолеум/Ковролин</label><br>
+      
+      <input type="radio" name="floor" id="floor3">&emsp;
+      <label for="floor3">Массив</label><br>
+      
+      <input type="radio" name="floor" id="floor4">&emsp;
+      <label for="floor4">Паркет</label><br>
+      
+      
+  </div>
+ </div>
+  
+  
+   
+    
+<!--    Этапы-->
+    <div id="stages">
+        <h1 class="stage-capture">Как мы работаем ?</h1>
+        <div class="stage__item">
+            <figure>
+            <div class="stage__item__box"><img src="img/email.png" alt="email"></div>
+            <figcaption class="stage__item-dscrp">Отправьте заявку</figcaption>
+        </figure>
+        <img src="img/share.png" alt="share" class="stage-share">
+        <figure>
+            <div class="stage__item__box"><img src="img/measuring-tape.png" alt="roulette"></div>
+            <figcaption class="stage__item-dscrp">Делаем замер и смету бесплатно</figcaption>
+        </figure>
+        <img src="img/share.png" alt="share" class="stage-share">
+        <figure>
+            <div class="stage__item__box"><img src="img/contract.png" alt="contract"></div>
+            <figcaption class="stage__item-dscrp">Подписываем договор</figcaption>
+        </figure>
+        <img src="img/share.png" alt="share" class="stage-share">
+        <figure>
+            <div class="stage__item__box"><img src="img/drill.png" alt="drill"></div>
+            <figcaption class="stage__item-dscrp">Начинаем ремонт на следующий день</figcaption>
+        </figure>
+        <img src="img/share.png" alt="share" class="stage-share">
+        <figure>
+            <div class="stage__item__box"><img src="img/deal.png" alt="handshake"></div>
+            <figcaption class="stage__item-dscrp">Вы принимаете ремонт</figcaption>
+        </figure>
+        <img src="img/share.png" alt="share" class="stage-share">
+        <figure>
+            <div class="stage__item__box"><img src="img/wallet.png" alt="wallet"></div>
+            <figcaption class="stage__item-dscrp">Оплата по факту</figcaption>
+        </figure>
+        </div>
+        
+    </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
